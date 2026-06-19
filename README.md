@@ -4,14 +4,9 @@ A long-term Minecraft 1.21.1 NeoForge modpack built around TerraFirmaCraft,
 with Stardew Valley-style farming, cooking, and seasonal gameplay.
 
 ## Quick Start
-1. Install Prism Launcher (https://prismlauncher.org).
-2. Add a new instance -> Import from ZIP -> select this zip.
-3. Prism auto-downloads MC 1.21.1, NeoForge 21.1.233, and 103 CurseForge mods.
-4. 47 deps/perf mods + Stardew Valley-style mods are pre-bundled.
-5. Allocate 6GB+ RAM (6144 MB).
-6. Launch! Spawn with Field Guide + Quest Book.
+Allocate 6GB+ RAM (6144 MB).
 
-## Stardew Valley-Style Features (150 mods total)
+## Stardew Valley-Style Features
 
 ### 4 Seasons & Weather
 - **Seasonal Let's Do** — 4-season cycle affecting Let's Do mods' crops
