@@ -1,0 +1,164 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: "square"
+    filename: "storage"
+    icon: "minecraft:chest"
+    id: "2407C7F8E93553D8"
+    order_index: 15
+    quest_links: [ ]
+    title: "Storage and Logistics"
+    description: "Drawers, Tom's Storage, Sophisticated, AE2."
+    quests: [
+        {
+            id: "3E0F0155EF9951DD"
+            title: "Storage Drawer"
+            icon: "minecraft:chest"
+            x: 0.0d
+            y: 0.0d
+            description: ["Compact storage for bulk items."]
+            tasks: [
+                {id: "T02D4", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R03A9", type: "item", item: "minecraft:oak_planks", count: 4L}
+                {id: "R03AA", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "A9A25A274B2A5F08"
+            title: "Drawer Controller"
+            icon: "minecraft:chest"
+            x: 1.0d
+            y: 0.0d
+            description: ["Access all drawers from one block."]
+            tasks: [
+                {id: "T02D5", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R03AB", type: "item", item: "minecraft:oak_planks", count: 4L}
+                {id: "R03AC", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "F351D47E9B805D21"
+            title: "Tom's Storage"
+            icon: "minecraft:chest"
+            x: 2.0d
+            y: 0.0d
+            description: ["Connect all chests into one network."]
+            tasks: [
+                {id: "T02D6", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R03AD", type: "item", item: "minecraft:oak_planks", count: 4L}
+                {id: "R03AE", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "CE6025999D59534C"
+            title: "Sophisticated Backpack"
+            icon: "minecraft:chest"
+            x: 3.0d
+            y: 0.0d
+            description: ["Portable inventory with upgrades."]
+            tasks: [
+                {id: "T02D7", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R03AF", type: "item", item: "minecraft:leather", count: 4L}
+                {id: "R03B0", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "24584057982F565A"
+            title: "Sophisticated Barrel"
+            icon: "minecraft:barrel"
+            x: 4.0d
+            y: 0.0d
+            description: ["Upgradeable storage."]
+            tasks: [
+                {id: "T02D8", type: "item", item: "minecraft:barrel"}
+            ]
+            rewards: [
+                {id: "R03B1", type: "item", item: "minecraft:oak_planks", count: 4L}
+                {id: "R03B2", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "79B3ED5F3E255D71"
+            title: "AE2 Introduction"
+            icon: "minecraft:chest"
+            x: 0.0d
+            y: 1.0d
+            description: ["Applied Energistics 2 — digital storage."]
+            tasks: [
+                {id: "T02D9", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R03B3", type: "item", item: "minecraft:chest"}
+                {id: "R03B4", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "4B64DFEA86B6500E"
+            title: "ME Controller"
+            icon: "minecraft:chest"
+            x: 1.0d
+            y: 1.0d
+            description: ["Provides channels to network."]
+            tasks: [
+                {id: "T02DA", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R03B5", type: "item", item: "minecraft:chest"}
+                {id: "R03B6", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "BF9708E95DEB5A57"
+            title: "ME Drive"
+            icon: "minecraft:chest"
+            x: 2.0d
+            y: 1.0d
+            description: ["Holds storage cells."]
+            tasks: [
+                {id: "T02DB", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R03B7", type: "item", item: "minecraft:chest"}
+                {id: "R03B8", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "1570346364D75B62"
+            title: "ME Terminal"
+            icon: "minecraft:chest"
+            x: 3.0d
+            y: 1.0d
+            description: ["Access the network."]
+            tasks: [
+                {id: "T02DC", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R03B9", type: "item", item: "minecraft:chest"}
+                {id: "R03BA", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "31EC049FB5915AA5"
+            title: "Storage Master"
+            icon: "minecraft:chest"
+            x: 0.0d
+            y: 2.0d
+            description: ["Your storage is now infinite!"]
+            tasks: [
+                {id: "T02DD", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R03BB", type: "xp", xp: "30L"}
+                {id: "R03BC", type: "item", item: "minecraft:chest", count: 4L}
+            ]
+            dependencies: ["3E0F0155EF9951DD","F351D47E9B805D21","CE6025999D59534C","1570346364D75B62"]
+        }
+    ]
+}

@@ -1,0 +1,371 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: "square"
+    filename: "stone_age"
+    icon: "minecraft:stone_axe"
+    id: "667783821A8E5388"
+    order_index: 3
+    quest_links: [ ]
+    title: "TFC: The Stone Age"
+    description: "Stone tools, hunting, and gathering."
+    quests: [
+        {
+            id: "7BF79BC5532658E1"
+            title: "Stone Spear"
+            icon: "tfc:stone/javelin/sedimentary"
+            x: 0.0d
+            y: 0.0d
+            description: ["The dawn of hunting. Knapp a javelin head from sedimentary rock.","Right-click with 2+ loose rocks to open the knapping GUI.","This is your first ranged weapon — use it wisely."]
+            tasks: [
+                {id: "T0035", type: "item", item: "tfc:stone/javelin/sedimentary"}
+            ]
+            rewards: [
+                {id: "R0062", type: "item", item: "minecraft:stick", count: 4L}
+                {id: "R0063", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "B949C8C269465F9D"
+            title: "Stone Hammer"
+            icon: "tfc:stone/hammer/igneous_intrusive"
+            x: 1.0d
+            y: 0.0d
+            description: ["The hammer crushes rock and ore alike.","Knapp it from igneous intrusive rock for maximum durability.","Essential for ore processing later."]
+            tasks: [
+                {id: "T0036", type: "item", item: "tfc:stone/hammer/igneous_intrusive"}
+            ]
+            rewards: [
+                {id: "R0064", type: "item", item: "minecraft:stick", count: 4L}
+                {id: "R0065", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "5AAE5C8D18775CB0"
+            title: "Stone Knife"
+            icon: "tfc:stone/knife/igneous_extrusive"
+            x: 2.0d
+            y: 0.0d
+            description: ["A knife is your most versatile tool.","Cut grass, harvest plant fibers, prepare food, and defend yourself.","Knapp it from igneous extrusive rock."]
+            tasks: [
+                {id: "T0037", type: "item", item: "tfc:stone/knife/igneous_extrusive"}
+            ]
+            rewards: [
+                {id: "R0066", type: "item", item: "minecraft:stick", count: 4L}
+                {id: "R0067", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "3EFA1FEFB96F558E"
+            title: "Stone Axe"
+            icon: "tfc:stone/axe/metamorphic"
+            x: 3.0d
+            y: 0.0d
+            description: ["The axe fells trees in a single blow at the base.","TFC trees fall entirely when you chop the bottom log.","Use metamorphic rock for a keen edge."]
+            tasks: [
+                {id: "T0038", type: "item", item: "tfc:stone/axe/metamorphic"}
+            ]
+            rewards: [
+                {id: "R0068", type: "item", item: "minecraft:stick", count: 8L}
+                {id: "R0069", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "F655F8B6F5A45300"
+            title: "Stone Shovel"
+            icon: "tfc:stone/shovel/sedimentary"
+            x: 4.0d
+            y: 0.0d
+            description: ["Dig clay, dirt, and loose rock with a shovel.","Essential for finding clay deposits near rivers."]
+            tasks: [
+                {id: "T0039", type: "item", item: "tfc:stone/shovel/sedimentary"}
+            ]
+            rewards: [
+                {id: "R006A", type: "item", item: "minecraft:stick", count: 4L}
+                {id: "R006B", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "E580928153E859AB"
+            title: "Stone Hoe"
+            icon: "tfc:stone/hoe/igneous_intrusive"
+            x: 5.0d
+            y: 0.0d
+            description: ["The hoe tills soil for planting crops.","Without it, you cannot farm. Agriculture begins here."]
+            tasks: [
+                {id: "T003A", type: "item", item: "tfc:stone/hoe/igneous_intrusive"}
+            ]
+            rewards: [
+                {id: "R006C", type: "item", item: "minecraft:stick", count: 4L}
+                {id: "R006D", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "B231F8D3BBEF56A4"
+            title: "Hunt a Deer"
+            icon: "minecraft:leather"
+            x: 0.0d
+            y: 1.0d
+            description: ["Deer roam forests and plains, wary of predators.","Stalk them from downwind, or wait at a watering hole.","Their hide will be your first leather."]
+            tasks: [
+                {id: "T003B", type: "kill", entity: "minecraft:deer"}
+            ]
+            rewards: [
+                {id: "R006E", type: "item", item: "minecraft:arrow", count: 4L}
+                {id: "R006F", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["7BF79BC5532658E1"]
+        }
+        {
+            id: "D99889914A655DEC"
+            title: "TFC Leather"
+            icon: "minecraft:leather"
+            x: 1.0d
+            y: 1.0d
+            description: ["Leather in TFC is a multi-step process:","1. Soak hides in limewater (from flux + water in a barrel)","2. Scrape the hide clean","3. Tan with tree bark tannin","Patience yields the finest leather."]
+            tasks: [
+                {id: "T003C", type: "item", item: "minecraft:leather", count: 4L}
+            ]
+            rewards: [
+                {id: "R0070", type: "item", item: "minecraft:string", count: 2L}
+                {id: "R0071", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["B231F8D3BBEF56A4"]
+        }
+        {
+            id: "484C04E150905A50"
+            title: "Leather Armor"
+            icon: "minecraft:leather_chestplate"
+            x: 2.0d
+            y: 1.0d
+            description: ["Craft leather armor — your first protection against the wild.","It won't stop a bear, but it'll keep the chill out."]
+            tasks: [
+                {id: "T003D", type: "item", item: "minecraft:leather_chestplate"}
+            ]
+            rewards: [
+                {id: "R0072", type: "item", item: "minecraft:string", count: 4L}
+                {id: "R0073", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["D99889914A655DEC"]
+        }
+        {
+            id: "6712FBD90FED5C26"
+            title: "Bow and Arrows"
+            icon: "minecraft:bow"
+            x: 3.0d
+            y: 1.0d
+            description: ["A bow extends your reach beyond the spear.","Craft it from sticks and string — the string from grass.","The hunt becomes a matter of skill, not strength."]
+            tasks: [
+                {id: "T003E", type: "item", item: "minecraft:bow"}
+            ]
+            rewards: [
+                {id: "R0074", type: "item", item: "minecraft:arrow", count: 8L}
+                {id: "R0075", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["D99889914A655DEC"]
+        }
+        {
+            id: "BD5252A1A1975687"
+            title: "Quern Stone"
+            icon: "tfc:quern"
+            x: 0.0d
+            y: 2.0d
+            description: ["The quern is a rotary grinder, ancient and patient.","Place two stones together and turn grain to flour.","This is the foundation of all baking."]
+            tasks: [
+                {id: "T003F", type: "item", item: "tfc:quern"}
+            ]
+            rewards: [
+                {id: "R0076", type: "item", item: "minecraft:cobblestone", count: 8L}
+                {id: "R0077", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "8B52D0650AEA5D2A"
+            title: "Get Wheat"
+            icon: "tfc:food/wheat_grain"
+            x: 1.0d
+            y: 2.0d
+            description: ["Wild wheat grows in temperate grasslands.","Harvest it by breaking mature plants.","Each grain holds the promise of bread."]
+            tasks: [
+                {id: "T0040", type: "item", item: "tfc:food/wheat_grain", count: 4L}
+            ]
+            rewards: [
+                {id: "R0078", type: "item", item: "minecraft:barrel"}
+                {id: "R0079", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["BD5252A1A1975687"]
+        }
+        {
+            id: "573C925DAC7457C0"
+            title: "Grind Flour"
+            icon: "tfc:food/wheat_flour"
+            x: 2.0d
+            y: 2.0d
+            description: ["Turn the quern slowly. Grain becomes flour —","fine, pale, ready for water and fire."]
+            tasks: [
+                {id: "T0041", type: "item", item: "tfc:food/wheat_flour", count: 4L}
+            ]
+            rewards: [
+                {id: "R007A", type: "item", item: "tfc:food/wheat_grain", count: 4L}
+                {id: "R007B", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["8B52D0650AEA5D2A","BD5252A1A1975687"]
+        }
+        {
+            id: "BFA345648071593D"
+            title: "Make Dough"
+            icon: "tfc:food/wheat_dough"
+            x: 3.0d
+            y: 2.0d
+            description: ["Mix flour with water in a bowl. Knead until smooth.","The dough is alive — it waits for the fire."]
+            tasks: [
+                {id: "T0042", type: "item", item: "tfc:food/wheat_dough", count: 4L}
+            ]
+            rewards: [
+                {id: "R007C", type: "item", item: "tfc:food/wheat_flour", count: 2L}
+                {id: "R007D", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["573C925DAC7457C0"]
+        }
+        {
+            id: "0A2D362343055A59"
+            title: "Bake Bread"
+            icon: "tfc:food/wheat_bread"
+            x: 4.0d
+            y: 2.0d
+            description: ["Place dough on a hot firepit. Wait. Watch.","The smell of bread is the smell of civilization."]
+            tasks: [
+                {id: "T0043", type: "item", item: "tfc:food/wheat_bread", count: 4L}
+            ]
+            rewards: [
+                {id: "R007E", type: "item", item: "tfc:food/wheat_grain", count: 4L}
+                {id: "R007F", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["BFA345648071593D"]
+        }
+        {
+            id: "6854B6DD9F315A04"
+            title: "Stockpile Food"
+            icon: "tfc:food/wheat_bread"
+            x: 0.0d
+            y: 3.0d
+            description: ["Winter is coming. The land will freeze, crops will die.","Stockpile 16 loaves of bread. Your future self will thank you."]
+            tasks: [
+                {id: "T0044", type: "item", item: "tfc:food/wheat_bread", count: 16L}
+            ]
+            rewards: [
+                {id: "R0080", type: "item", item: "minecraft:barrel", count: 2L}
+                {id: "R0081", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["0A2D362343055A59"]
+        }
+        {
+            id: "70D62A3E301456D5"
+            title: "Stockpile Fuel"
+            icon: "minecraft:charcoal"
+            x: 1.0d
+            y: 3.0d
+            description: ["Charcoal burns hotter and longer than wood.","Burn log piles under dirt to smolder them into charcoal.","Stockpile 32 pieces for the cold months ahead."]
+            tasks: [
+                {id: "T0045", type: "item", item: "minecraft:charcoal", count: 32L}
+            ]
+            rewards: [
+                {id: "R0082", type: "item", item: "minecraft:oak_log", count: 8L}
+                {id: "R0083", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "9329CCEC2FC85774"
+            title: "Rope"
+            icon: "minecraft:lead"
+            x: 2.0d
+            y: 3.0d
+            description: ["Twist plant fibers into rope. It binds, lifts, and pulls.","Craft leads to move animals, or ladders to climb."]
+            tasks: [
+                {id: "T0046", type: "item", item: "minecraft:lead", count: 4L}
+            ]
+            rewards: [
+                {id: "R0084", type: "item", item: "minecraft:string", count: 8L}
+                {id: "R0085", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "0C171052FB9A51B4"
+            title: "Wool From Sheep"
+            icon: "minecraft:white_wool"
+            x: 3.0d
+            y: 3.0d
+            description: ["Sheep graze in golden meadows at dawn.","Shear them with shears, or take it the hard way.","Wool becomes yarn, yarn becomes cloth."]
+            tasks: [
+                {id: "T0047", type: "item", item: "minecraft:white_wool", count: 4L}
+            ]
+            rewards: [
+                {id: "R0086", type: "item", item: "minecraft:string", count: 4L}
+                {id: "R0087", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["9329CCEC2FC85774"]
+        }
+        {
+            id: "483E454ADFC65EA3"
+            title: "Wool Cloth"
+            icon: "tfc:burlap_cloth"
+            x: 4.0d
+            y: 3.0d
+            description: ["Spin wool on a spindle, weave it on a loom.","Cloth means clothing, blankets, and trade."]
+            tasks: [
+                {id: "T0048", type: "item", item: "tfc:burlap_cloth", count: 4L}
+            ]
+            rewards: [
+                {id: "R0088", type: "item", item: "minecraft:string", count: 4L}
+                {id: "R0089", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["0C171052FB9A51B4"]
+        }
+        {
+            id: "007F87AFC7935D53"
+            title: "Straw Bed"
+            icon: "minecraft:hay_block"
+            x: 5.0d
+            y: 3.0d
+            description: ["A bed of straw — humble, but it beats the cold ground.","Sleep through the dangerous night."]
+            tasks: [
+                {id: "T0049", type: "item", item: "minecraft:hay_block"}
+            ]
+            rewards: [
+                {id: "R008A", type: "item", item: "tfc:food/wheat_grain", count: 8L}
+                {id: "R008B", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["9329CCEC2FC85774"]
+        }
+        {
+            id: "7587E8CD193E5726"
+            title: "Find Fire Clay"
+            icon: "tfc:fire_clay"
+            x: 0.0d
+            y: 4.0d
+            description: ["Fire clay is rare, found only near specific rock types.","It withstands infernal heat — the foundation of metallurgy.","Without it, no crucible, no molds, no metal age."]
+            tasks: [
+                {id: "T004A", type: "item", item: "tfc:fire_clay", count: 4L}
+            ]
+            rewards: [
+                {id: "R008C", type: "item", item: "minecraft:clay_ball", count: 4L}
+                {id: "R008D", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "C67EE864DD14579D"
+            title: "Stone Age Complete"
+            icon: "minecraft:book"
+            x: 1.0d
+            y: 4.0d
+            description: ["You have mastered the Stone Age. You can hunt, farm, cook,","and build. But stone is brittle, and the world holds secrets","beneath the rock. It is time to learn the way of metal.","","The Copper Age beckons."]
+            tasks: [
+                {id: "T004B", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R008E", type: "xp", xp: "10L"}
+                {id: "R008F", type: "item", item: "minecraft:barrel", count: 4L}
+            ]
+            dependencies: ["6854B6DD9F315A04","70D62A3E301456D5","483E454ADFC65EA3","7587E8CD193E5726"]
+        }
+    ]
+}

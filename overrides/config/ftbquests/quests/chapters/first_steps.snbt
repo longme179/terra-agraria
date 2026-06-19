@@ -1,0 +1,412 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: "square"
+    filename: "first_steps"
+    icon: "minecraft:oak_log"
+    id: "8866D1F547DA5973"
+    order_index: 1
+    quest_links: [ ]
+    title: "TFC: First Steps"
+    description: "Survive your first day."
+    quests: [
+        {
+            id: "1909FCF01F1B5F94"
+            title: "Loose Rocks"
+            icon: "minecraft:flint"
+            x: 0.0d
+            y: 0.0d
+            description: ["Walk around and break loose rocks on the ground."]
+            tasks: [
+                {id: "T000A", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R000C", type: "item", item: "minecraft:stick", count: 4L}
+                {id: "R000D", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "DF03345875925924"
+            title: "Gather Sticks"
+            icon: "minecraft:stick"
+            x: 1.0d
+            y: 0.0d
+            description: ["Break dead bushes or leaves for sticks."]
+            tasks: [
+                {id: "T000B", type: "item", item: "minecraft:stick", count: 8L}
+            ]
+            rewards: [
+                {id: "R000E", type: "item", item: "minecraft:flint", count: 4L}
+                {id: "R000F", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["1909FCF01F1B5F94"]
+        }
+        {
+            id: "4EEBC98EA36C5D77"
+            title: "Stone Knife"
+            icon: "minecraft:flint"
+            x: 2.0d
+            y: 0.0d
+            description: ["Knapp a knife head (2+ rocks, right-click). Combine with stick."]
+            tasks: [
+                {id: "T000C", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0010", type: "item", item: "minecraft:stick", count: 4L}
+                {id: "R0011", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["DF03345875925924","1909FCF01F1B5F94"]
+        }
+        {
+            id: "0B1875D37923518B"
+            title: "Cut Grass"
+            icon: "minecraft:string"
+            x: 3.0d
+            y: 0.0d
+            description: ["Use knife on grass blocks for grass, then craft into string."]
+            tasks: [
+                {id: "T000D", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0012", type: "item", item: "minecraft:wheat_seeds", count: 4L}
+                {id: "R0013", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["4EEBC98EA36C5D77"]
+        }
+        {
+            id: "4A4EF013EDC45E79"
+            title: "Plant Fibers"
+            icon: "minecraft:grass"
+            x: 4.0d
+            y: 0.0d
+            description: ["Use knife on tall grass/ferns for plant fibers."]
+            tasks: [
+                {id: "T000E", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0014", type: "item", item: "minecraft:string", count: 2L}
+                {id: "R0015", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["4EEBC98EA36C5D77"]
+        }
+        {
+            id: "A0F12A1C7519505C"
+            title: "Stone Axe"
+            icon: "minecraft:stone_axe"
+            x: 2.0d
+            y: 1.0d
+            description: ["Knapp an axe head. Needed to cut trees."]
+            tasks: [
+                {id: "T000F", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0016", type: "item", item: "minecraft:stick", count: 8L}
+                {id: "R0017", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["DF03345875925924","1909FCF01F1B5F94"]
+        }
+        {
+            id: "514295EB49E45871"
+            title: "Fell a Tree"
+            icon: "minecraft:oak_log"
+            x: 3.0d
+            y: 1.0d
+            description: ["Chop the bottom log — the whole tree falls!"]
+            tasks: [
+                {id: "T0010", type: "item", item: "minecraft:oak_log", count: 8L}
+            ]
+            rewards: [
+                {id: "R0018", type: "item", item: "minecraft:oak_sapling", count: 2L}
+                {id: "R0019", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["A0F12A1C7519505C"]
+        }
+        {
+            id: "3DDF21A298665E38"
+            title: "Make Lumber"
+            icon: "minecraft:oak_planks"
+            x: 4.0d
+            y: 1.0d
+            description: ["Place logs, chop with axe to get lumber."]
+            tasks: [
+                {id: "T0011", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R001A", type: "item", item: "minecraft:stick", count: 16L}
+                {id: "R001B", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["514295EB49E45871"]
+        }
+        {
+            id: "5A13C20E41265224"
+            title: "Crafting Table"
+            icon: "minecraft:crafting_table"
+            x: 5.0d
+            y: 1.0d
+            description: ["Craft a TFC crafting table."]
+            tasks: [
+                {id: "T0012", type: "item", item: "minecraft:crafting_table"}
+            ]
+            rewards: [
+                {id: "R001C", type: "item", item: "minecraft:oak_planks", count: 4L}
+                {id: "R001D", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["3DDF21A298665E38"]
+        }
+        {
+            id: "EB05A6E2AB1C5A5B"
+            title: "First Shelter"
+            icon: "minecraft:oak_planks"
+            x: 6.0d
+            y: 1.0d
+            description: ["Build a basic dirt/wood shelter before nightfall."]
+            tasks: [
+                {id: "T0013", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R001E", type: "item", item: "minecraft:torch", count: 4L}
+                {id: "R001F", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["5A13C20E41265224"]
+        }
+        {
+            id: "E6048FBB6115550C"
+            title: "Find Fresh Water"
+            icon: "minecraft:water_bucket"
+            x: 0.0d
+            y: 2.0d
+            description: ["Thirst is brutal. Find a river or lake."]
+            tasks: [
+                {id: "T0014", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0020", type: "item", item: "minecraft:oak_planks", count: 4L}
+                {id: "R0021", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["1909FCF01F1B5F94"]
+        }
+        {
+            id: "E0F09B625D0A5168"
+            title: "Find Clay"
+            icon: "minecraft:clay_ball"
+            x: 1.0d
+            y: 2.0d
+            description: ["Find clay near rivers. Pottery is next chapter."]
+            tasks: [
+                {id: "T0015", type: "item", item: "minecraft:clay_ball", count: 4L}
+            ]
+            rewards: [
+                {id: "R0022", type: "item", item: "minecraft:clay_ball", count: 4L}
+                {id: "R0023", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["E6048FBB6115550C"]
+        }
+        {
+            id: "C1BDB6B355255AC0"
+            title: "Make Fire"
+            icon: "minecraft:flint_and_steel"
+            x: 2.0d
+            y: 2.0d
+            description: ["Craft a firestarter. Use on dry ground."]
+            tasks: [
+                {id: "T0016", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0024", type: "item", item: "minecraft:stick", count: 4L}
+                {id: "R0025", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["DF03345875925924","4EEBC98EA36C5D77"]
+        }
+        {
+            id: "55CAD18A202D581B"
+            title: "Light a Fire"
+            icon: "minecraft:campfire"
+            x: 3.0d
+            y: 2.0d
+            description: ["Use firestarter on a block, keep clicking to build fire."]
+            tasks: [
+                {id: "T0017", type: "item", item: "minecraft:campfire"}
+            ]
+            rewards: [
+                {id: "R0026", type: "item", item: "minecraft:stick", count: 8L}
+                {id: "R0027", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["C1BDB6B355255AC0"]
+        }
+        {
+            id: "547D22C089875F7D"
+            title: "First Torch"
+            icon: "minecraft:torch"
+            x: 4.0d
+            y: 2.0d
+            description: ["Right-click a stick on a fire to make a torch."]
+            tasks: [
+                {id: "T0018", type: "item", item: "minecraft:torch", count: 4L}
+            ]
+            rewards: [
+                {id: "R0028", type: "item", item: "minecraft:stick", count: 8L}
+                {id: "R0029", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["55CAD18A202D581B"]
+        }
+        {
+            id: "CA3DF27CBD895E0D"
+            title: "Find Food"
+            icon: "minecraft:mutton"
+            x: 0.0d
+            y: 3.0d
+            description: ["Hunt sheep for mutton. Cook before eating."]
+            tasks: [
+                {id: "T0019", type: "item", item: "minecraft:mutton", count: 2L}
+            ]
+            rewards: [
+                {id: "R002A", type: "item", item: "minecraft:wheat_seeds", count: 4L}
+                {id: "R002B", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["4EEBC98EA36C5D77"]
+        }
+        {
+            id: "F35C6F38486B5745"
+            title: "Cook the Meat"
+            icon: "minecraft:cooked_mutton"
+            x: 1.0d
+            y: 3.0d
+            description: ["Right-click raw meat on a campfire."]
+            tasks: [
+                {id: "T001A", type: "item", item: "minecraft:cooked_mutton"}
+            ]
+            rewards: [
+                {id: "R002C", type: "item", item: "minecraft:apple", count: 2L}
+                {id: "R002D", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["CA3DF27CBD895E0D","55CAD18A202D581B"]
+        }
+        {
+            id: "EE939A06C6E65567"
+            title: "Forage Berries"
+            icon: "minecraft:sweet_berries"
+            x: 2.0d
+            y: 3.0d
+            description: ["Find berry bushes in forests. Right-click to harvest."]
+            tasks: [
+                {id: "T001B", type: "item", item: "minecraft:sweet_berries", count: 4L}
+            ]
+            rewards: [
+                {id: "R002E", type: "item", item: "minecraft:apple", count: 2L}
+                {id: "R002F", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["4EEBC98EA36C5D77"]
+        }
+        {
+            id: "82503583F0C15272"
+            title: "Tree Fruit"
+            icon: "minecraft:apple"
+            x: 3.0d
+            y: 3.0d
+            description: ["Fruit trees drop fruit in season."]
+            tasks: [
+                {id: "T001C", type: "item", item: "minecraft:apple", count: 2L}
+            ]
+            rewards: [
+                {id: "R0030", type: "item", item: "minecraft:apple", count: 2L}
+                {id: "R0031", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["4EEBC98EA36C5D77"]
+        }
+        {
+            id: "E3C91EA266905017"
+            title: "Stone Shovel"
+            icon: "minecraft:stone_shovel"
+            x: 4.0d
+            y: 3.0d
+            description: ["Knapp a shovel head for digging."]
+            tasks: [
+                {id: "T001D", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0032", type: "item", item: "minecraft:stick", count: 4L}
+                {id: "R0033", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["DF03345875925924","1909FCF01F1B5F94"]
+        }
+        {
+            id: "3D55C8501EFB5E1E"
+            title: "Stone Hoe"
+            icon: "minecraft:stone_hoe"
+            x: 5.0d
+            y: 3.0d
+            description: ["Knapp a hoe for farming."]
+            tasks: [
+                {id: "T001E", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0034", type: "item", item: "minecraft:stick", count: 4L}
+                {id: "R0035", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["DF03345875925924","1909FCF01F1B5F94"]
+        }
+        {
+            id: "41B43233098C54B9"
+            title: "First Bed"
+            icon: "minecraft:red_bed"
+            x: 6.0d
+            y: 3.0d
+            description: ["Sleep in a bed to skip the night."]
+            tasks: [
+                {id: "T001F", type: "item", item: "minecraft:red_bed"}
+            ]
+            rewards: [
+                {id: "R0036", type: "item", item: "minecraft:string", count: 4L}
+                {id: "R0037", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["EB05A6E2AB1C5A5B"]
+        }
+        {
+            id: "C2B294A51B7159C9"
+            title: "Burlap Sacks"
+            icon: "minecraft:barrel"
+            x: 0.0d
+            y: 4.0d
+            description: ["Craft sacks from jute fiber for extra carry slots."]
+            tasks: [
+                {id: "T0020", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0038", type: "item", item: "minecraft:string", count: 8L}
+                {id: "R0039", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["4A4EF013EDC45E79"]
+        }
+        {
+            id: "001AE710C1785F76"
+            title: "Small Vessel"
+            icon: "minecraft:bowl"
+            x: 1.0d
+            y: 4.0d
+            description: ["Craft a ceramic vessel — your first chest."]
+            tasks: [
+                {id: "T0021", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R003A", type: "item", item: "minecraft:clay_ball", count: 4L}
+                {id: "R003B", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["E0F09B625D0A5168"]
+        }
+        {
+            id: "2913DDA29C055539"
+            title: "Survivor"
+            icon: "minecraft:totem_of_undying"
+            x: 3.0d
+            y: 4.0d
+            description: ["You've survived your first day. The real work begins."]
+            tasks: [
+                {id: "T0022", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R003C", type: "xp", xp: "5L"}
+                {id: "R003D", type: "item", item: "minecraft:bread", count: 4L}
+            ]
+            dependencies: ["EB05A6E2AB1C5A5B","547D22C089875F7D","F35C6F38486B5745"]
+        }
+    ]
+}

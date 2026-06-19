@@ -1,0 +1,339 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: "square"
+    filename: "animals"
+    icon: "minecraft:wheat"
+    id: "7D875343DD6B5A49"
+    order_index: 6
+    quest_links: [ ]
+    title: "TFC: Animal Husbandry"
+    description: "Domesticate, breed, and harvest from animals."
+    quests: [
+        {
+            id: "BDC069A0A6525C1B"
+            title: "Find a Cow"
+            icon: "minecraft:cow_spawn_egg"
+            x: 0.0d
+            y: 0.0d
+            description: ["TFC cows spawn in plains. Lure with wheat."]
+            tasks: [
+                {id: "T011C", type: "observation", to_observe: "minecraft:cow", timer: 20L}
+            ]
+            rewards: [
+                {id: "R0184", type: "item", item: "minecraft:wheat", count: 4L}
+                {id: "R0185", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "BFA1D5733D1A5FBA"
+            title: "Build a Pen"
+            icon: "minecraft:oak_fence"
+            x: 1.0d
+            y: 0.0d
+            description: ["Fence in animals."]
+            tasks: [
+                {id: "T011D", type: "item", item: "minecraft:oak_fence", count: 16L}
+            ]
+            rewards: [
+                {id: "R0186", type: "item", item: "minecraft:oak_planks", count: 8L}
+                {id: "R0187", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "16563D7FAF175E4E"
+            title: "Breed Cows"
+            icon: "minecraft:wheat"
+            x: 2.0d
+            y: 0.0d
+            description: ["Feed 2 cows wheat to breed."]
+            tasks: [
+                {id: "T011E", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0188", type: "item", item: "minecraft:wheat", count: 4L}
+                {id: "R0189", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["BFA1D5733D1A5FBA","BDC069A0A6525C1B"]
+        }
+        {
+            id: "8F758E18097E5DA8"
+            title: "Milk a Cow"
+            icon: "minecraft:milk_bucket"
+            x: 3.0d
+            y: 0.0d
+            description: ["Right-click cow with bucket."]
+            tasks: [
+                {id: "T011F", type: "item", item: "minecraft:milk_bucket"}
+            ]
+            rewards: [
+                {id: "R018A", type: "item", item: "minecraft:bucket"}
+                {id: "R018B", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["16563D7FAF175E4E"]
+        }
+        {
+            id: "9D4AC8E747515830"
+            title: "Cow Leather"
+            icon: "minecraft:leather"
+            x: 4.0d
+            y: 0.0d
+            description: ["Cows drop leather when killed."]
+            tasks: [
+                {id: "T0120", type: "item", item: "minecraft:leather", count: 4L}
+            ]
+            rewards: [
+                {id: "R018C", type: "item", item: "minecraft:beef", count: 2L}
+                {id: "R018D", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["16563D7FAF175E4E"]
+        }
+        {
+            id: "9DD520D5EA835FDB"
+            title: "Find Sheep"
+            icon: "minecraft:sheep_spawn_egg"
+            x: 0.0d
+            y: 1.0d
+            description: ["Sheep spawn in plains."]
+            tasks: [
+                {id: "T0121", type: "observation", to_observe: "minecraft:sheep", timer: 20L}
+            ]
+            rewards: [
+                {id: "R018E", type: "item", item: "minecraft:wheat", count: 4L}
+                {id: "R018F", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "01EF6EF0BD6D555E"
+            title: "Breed Sheep"
+            icon: "minecraft:wheat"
+            x: 1.0d
+            y: 1.0d
+            description: ["Feed 2 sheep wheat to breed."]
+            tasks: [
+                {id: "T0122", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0190", type: "item", item: "minecraft:wheat", count: 4L}
+                {id: "R0191", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["9DD520D5EA835FDB"]
+        }
+        {
+            id: "06BFBFD781C85949"
+            title: "Shear Sheep"
+            icon: "minecraft:shears"
+            x: 2.0d
+            y: 1.0d
+            description: ["Right-click sheep with shears."]
+            tasks: [
+                {id: "T0123", type: "item", item: "minecraft:white_wool", count: 4L}
+            ]
+            rewards: [
+                {id: "R0192", type: "item", item: "minecraft:iron_ingot"}
+                {id: "R0193", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["01EF6EF0BD6D555E"]
+        }
+        {
+            id: "96CF09C635A95ED8"
+            title: "Find Pigs"
+            icon: "minecraft:pig_spawn_egg"
+            x: 0.0d
+            y: 2.0d
+            description: ["Pigs spawn in forests."]
+            tasks: [
+                {id: "T0124", type: "observation", to_observe: "minecraft:pig", timer: 20L}
+            ]
+            rewards: [
+                {id: "R0194", type: "item", item: "minecraft:carrot", count: 4L}
+                {id: "R0195", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "E8AA354471615107"
+            title: "Breed Pigs"
+            icon: "minecraft:carrot"
+            x: 1.0d
+            y: 2.0d
+            description: ["Feed 2 pigs carrots."]
+            tasks: [
+                {id: "T0125", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0196", type: "item", item: "minecraft:carrot", count: 4L}
+                {id: "R0197", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["96CF09C635A95ED8"]
+        }
+        {
+            id: "99AAE73170B45E1D"
+            title: "Find Chickens"
+            icon: "minecraft:chicken_spawn_egg"
+            x: 0.0d
+            y: 3.0d
+            description: ["Chickens spawn in forests."]
+            tasks: [
+                {id: "T0126", type: "observation", to_observe: "minecraft:chicken", timer: 20L}
+            ]
+            rewards: [
+                {id: "R0198", type: "item", item: "minecraft:wheat_seeds", count: 4L}
+                {id: "R0199", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "F3A0FD4B02F658AD"
+            title: "Breed Chickens"
+            icon: "minecraft:wheat_seeds"
+            x: 1.0d
+            y: 3.0d
+            description: ["Feed 2 chickens seeds."]
+            tasks: [
+                {id: "T0127", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R019A", type: "item", item: "minecraft:wheat_seeds", count: 4L}
+                {id: "R019B", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["99AAE73170B45E1D"]
+        }
+        {
+            id: "D80B253A604454FC"
+            title: "Collect Eggs"
+            icon: "minecraft:egg"
+            x: 2.0d
+            y: 3.0d
+            description: ["Chickens lay eggs."]
+            tasks: [
+                {id: "T0128", type: "item", item: "minecraft:egg", count: 8L}
+            ]
+            rewards: [
+                {id: "R019C", type: "item", item: "minecraft:wheat_seeds", count: 4L}
+                {id: "R019D", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["F3A0FD4B02F658AD"]
+        }
+        {
+            id: "43E2B9E52A4B53AF"
+            title: "Goats"
+            icon: "minecraft:goat_spawn_egg"
+            x: 0.0d
+            y: 4.0d
+            description: ["Goats spawn in mountains."]
+            tasks: [
+                {id: "T0129", type: "observation", to_observe: "minecraft:goat", timer: 20L}
+            ]
+            rewards: [
+                {id: "R019E", type: "item", item: "minecraft:wheat", count: 4L}
+                {id: "R019F", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "2AC91A08BFD15478"
+            title: "Go Fishing"
+            icon: "minecraft:fishing_rod"
+            x: 1.0d
+            y: 4.0d
+            description: ["Craft a fishing rod."]
+            tasks: [
+                {id: "T012A", type: "item", item: "minecraft:fishing_rod"}
+            ]
+            rewards: [
+                {id: "R01A0", type: "item", item: "minecraft:string", count: 2L}
+                {id: "R01A1", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "107EF26722A15283"
+            title: "Catch a Fish"
+            icon: "minecraft:cod"
+            x: 2.0d
+            y: 4.0d
+            description: ["Catch 5 fish."]
+            tasks: [
+                {id: "T012B", type: "item", item: "minecraft:cod", count: 5L}
+            ]
+            rewards: [
+                {id: "R01A2", type: "item", item: "minecraft:string", count: 2L}
+                {id: "R01A3", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["2AC91A08BFD15478"]
+        }
+        {
+            id: "A845F336840A5FB9"
+            title: "Find a Horse"
+            icon: "minecraft:horse_spawn_egg"
+            x: 0.0d
+            y: 5.0d
+            description: ["Horses spawn in plains."]
+            tasks: [
+                {id: "T012C", type: "observation", to_observe: "minecraft:horse", timer: 20L}
+            ]
+            rewards: [
+                {id: "R01A4", type: "item", item: "minecraft:apple", count: 4L}
+                {id: "R01A5", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "561BEFFFC14A5700"
+            title: "Tame a Horse"
+            icon: "minecraft:saddle"
+            x: 1.0d
+            y: 5.0d
+            description: ["Right-click horse to tame. Equip saddle."]
+            tasks: [
+                {id: "T012D", type: "item", item: "minecraft:saddle"}
+            ]
+            rewards: [
+                {id: "R01A6", type: "item", item: "minecraft:apple", count: 4L}
+                {id: "R01A7", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["A845F336840A5FB9"]
+        }
+        {
+            id: "B31CBF40782A5333"
+            title: "Lead Animals"
+            icon: "minecraft:lead"
+            x: 2.0d
+            y: 5.0d
+            description: ["Craft leads to move animals."]
+            tasks: [
+                {id: "T012E", type: "item", item: "minecraft:lead", count: 2L}
+            ]
+            rewards: [
+                {id: "R01A8", type: "item", item: "minecraft:string", count: 4L}
+                {id: "R01A9", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "0C4B8C269E535D83"
+            title: "Large Pasture"
+            icon: "minecraft:grass_block"
+            x: 3.0d
+            y: 5.0d
+            description: ["Build a large fenced pasture."]
+            tasks: [
+                {id: "T012F", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R01AA", type: "item", item: "minecraft:oak_planks", count: 16L}
+                {id: "R01AB", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "38EFE93F089952BE"
+            title: "Master Rancher"
+            icon: "minecraft:saddle"
+            x: 0.0d
+            y: 6.0d
+            description: ["A self-sustaining ranch."]
+            tasks: [
+                {id: "T0130", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R01AC", type: "xp", xp: "15L"}
+                {id: "R01AD", type: "item", item: "minecraft:golden_apple", count: 2L}
+            ]
+            dependencies: ["16563D7FAF175E4E","01EF6EF0BD6D555E","E8AA354471615107","F3A0FD4B02F658AD","0C4B8C269E535D83"]
+        }
+    ]
+}

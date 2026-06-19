@@ -1,0 +1,1413 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: "square"
+    filename: "croptopia"
+    icon: "croptopia:apple_pie"
+    id: "549D13CCCB6155FE"
+    order_index: 13
+    quest_links: [ ]
+    title: "Croptopia Foods"
+    description: "Cook and collect Croptopia foods! 100 items."
+    quests: [
+        {
+            id: "BD99DF8D27AB5250"
+            title: "Ajvar"
+            icon: "croptopia:ajvar"
+            x: 0.0d
+            y: 0.0d
+            description: ["Obtain: Ajvar"]
+            tasks: [
+                {id: "T01D0", type: "item", item: "croptopia:ajvar"}
+            ]
+            rewards: [
+                {id: "R02A5", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "0FEB3BAAF22255A8"
+            title: "Ajvar Toast"
+            icon: "croptopia:ajvar_toast"
+            x: 1.0d
+            y: 0.0d
+            description: ["Obtain: Ajvar Toast"]
+            tasks: [
+                {id: "T01D1", type: "item", item: "croptopia:ajvar_toast"}
+            ]
+            rewards: [
+                {id: "R02A6", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "F7DC98D231875E0A"
+            title: "Almond"
+            icon: "croptopia:almond"
+            x: 2.0d
+            y: 0.0d
+            description: ["Obtain: Almond"]
+            tasks: [
+                {id: "T01D2", type: "item", item: "croptopia:almond"}
+            ]
+            rewards: [
+                {id: "R02A7", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "1EE8507D43BC5E6D"
+            title: "Almond Brittle"
+            icon: "croptopia:almond_brittle"
+            x: 3.0d
+            y: 0.0d
+            description: ["Obtain: Almond Brittle"]
+            tasks: [
+                {id: "T01D3", type: "item", item: "croptopia:almond_brittle"}
+            ]
+            rewards: [
+                {id: "R02A8", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "0F01F4FF7E1B5A22"
+            title: "Anchovy"
+            icon: "croptopia:anchovy"
+            x: 4.0d
+            y: 0.0d
+            description: ["Obtain: Anchovy"]
+            tasks: [
+                {id: "T01D4", type: "item", item: "croptopia:anchovy"}
+            ]
+            rewards: [
+                {id: "R02A9", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "70DCF1B7F8F159A2"
+            title: "Anchovy Pizza"
+            icon: "croptopia:anchovy_pizza"
+            x: 5.0d
+            y: 0.0d
+            description: ["Obtain: Anchovy Pizza"]
+            tasks: [
+                {id: "T01D5", type: "item", item: "croptopia:anchovy_pizza"}
+            ]
+            rewards: [
+                {id: "R02AA", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "03787049DA7B58CB"
+            title: "Apple Juice"
+            icon: "croptopia:apple_juice"
+            x: 0.0d
+            y: 1.0d
+            description: ["Obtain: Apple Juice"]
+            tasks: [
+                {id: "T01D6", type: "item", item: "croptopia:apple_juice"}
+            ]
+            rewards: [
+                {id: "R02AB", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "1AB2A418E20F5513"
+            title: "Apple Pie"
+            icon: "croptopia:apple_pie"
+            x: 1.0d
+            y: 1.0d
+            description: ["Obtain: Apple Pie"]
+            tasks: [
+                {id: "T01D7", type: "item", item: "croptopia:apple_pie"}
+            ]
+            rewards: [
+                {id: "R02AC", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "D7F8BC59F01E54E8"
+            title: "Apricot"
+            icon: "croptopia:apricot"
+            x: 2.0d
+            y: 1.0d
+            description: ["Obtain: Apricot"]
+            tasks: [
+                {id: "T01D8", type: "item", item: "croptopia:apricot"}
+            ]
+            rewards: [
+                {id: "R02AD", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "62C4B987EE0E5BD0"
+            title: "Apricot Jam"
+            icon: "croptopia:apricot_jam"
+            x: 3.0d
+            y: 1.0d
+            description: ["Obtain: Apricot Jam"]
+            tasks: [
+                {id: "T01D9", type: "item", item: "croptopia:apricot_jam"}
+            ]
+            rewards: [
+                {id: "R02AE", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "DB974C1322925827"
+            title: "Artichoke"
+            icon: "croptopia:artichoke"
+            x: 4.0d
+            y: 1.0d
+            description: ["Obtain: Artichoke"]
+            tasks: [
+                {id: "T01DA", type: "item", item: "croptopia:artichoke"}
+            ]
+            rewards: [
+                {id: "R02AF", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "6CD6DAC5502E5A26"
+            title: "Artichoke Dip"
+            icon: "croptopia:artichoke_dip"
+            x: 5.0d
+            y: 1.0d
+            description: ["Obtain: Artichoke Dip"]
+            tasks: [
+                {id: "T01DB", type: "item", item: "croptopia:artichoke_dip"}
+            ]
+            rewards: [
+                {id: "R02B0", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "94A83488675B534D"
+            title: "Asparagus"
+            icon: "croptopia:asparagus"
+            x: 0.0d
+            y: 2.0d
+            description: ["Obtain: Asparagus"]
+            tasks: [
+                {id: "T01DC", type: "item", item: "croptopia:asparagus"}
+            ]
+            rewards: [
+                {id: "R02B1", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "2D76DE46276F552C"
+            title: "Avocado"
+            icon: "croptopia:avocado"
+            x: 1.0d
+            y: 2.0d
+            description: ["Obtain: Avocado"]
+            tasks: [
+                {id: "T01DD", type: "item", item: "croptopia:avocado"}
+            ]
+            rewards: [
+                {id: "R02B2", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "EAC22A39228F5C82"
+            title: "Avocado Toast"
+            icon: "croptopia:avocado_toast"
+            x: 2.0d
+            y: 2.0d
+            description: ["Obtain: Avocado Toast"]
+            tasks: [
+                {id: "T01DE", type: "item", item: "croptopia:avocado_toast"}
+            ]
+            rewards: [
+                {id: "R02B3", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "32F778CF00765826"
+            title: "Bacon"
+            icon: "croptopia:bacon"
+            x: 3.0d
+            y: 2.0d
+            description: ["Obtain: Bacon"]
+            tasks: [
+                {id: "T01DF", type: "item", item: "croptopia:bacon"}
+            ]
+            rewards: [
+                {id: "R02B4", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "D0806317BEB15C46"
+            title: "Baked Beans"
+            icon: "croptopia:baked_beans"
+            x: 4.0d
+            y: 2.0d
+            description: ["Obtain: Baked Beans"]
+            tasks: [
+                {id: "T01E0", type: "item", item: "croptopia:baked_beans"}
+            ]
+            rewards: [
+                {id: "R02B5", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "48FD6B155A1A53D3"
+            title: "Baked Crepes"
+            icon: "croptopia:baked_crepes"
+            x: 5.0d
+            y: 2.0d
+            description: ["Obtain: Baked Crepes"]
+            tasks: [
+                {id: "T01E1", type: "item", item: "croptopia:baked_crepes"}
+            ]
+            rewards: [
+                {id: "R02B6", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "FD613E91A3335144"
+            title: "Baked Sweet Potato"
+            icon: "croptopia:baked_sweet_potato"
+            x: 0.0d
+            y: 3.0d
+            description: ["Obtain: Baked Sweet Potato"]
+            tasks: [
+                {id: "T01E2", type: "item", item: "croptopia:baked_sweet_potato"}
+            ]
+            rewards: [
+                {id: "R02B7", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "5506FA39907A5B89"
+            title: "Baked Yam"
+            icon: "croptopia:baked_yam"
+            x: 1.0d
+            y: 3.0d
+            description: ["Obtain: Baked Yam"]
+            tasks: [
+                {id: "T01E3", type: "item", item: "croptopia:baked_yam"}
+            ]
+            rewards: [
+                {id: "R02B8", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "C15CF2F014AE5A38"
+            title: "Banana"
+            icon: "croptopia:banana"
+            x: 2.0d
+            y: 3.0d
+            description: ["Obtain: Banana"]
+            tasks: [
+                {id: "T01E4", type: "item", item: "croptopia:banana"}
+            ]
+            rewards: [
+                {id: "R02B9", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "B2F77B4DA5585ECB"
+            title: "Banana Cream Pie"
+            icon: "croptopia:banana_cream_pie"
+            x: 3.0d
+            y: 3.0d
+            description: ["Obtain: Banana Cream Pie"]
+            tasks: [
+                {id: "T01E5", type: "item", item: "croptopia:banana_cream_pie"}
+            ]
+            rewards: [
+                {id: "R02BA", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "6AB7DAB792BD5FF3"
+            title: "Banana Nut Bread"
+            icon: "croptopia:banana_nut_bread"
+            x: 4.0d
+            y: 3.0d
+            description: ["Obtain: Banana Nut Bread"]
+            tasks: [
+                {id: "T01E6", type: "item", item: "croptopia:banana_nut_bread"}
+            ]
+            rewards: [
+                {id: "R02BB", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "EFD7AFD81E5B5295"
+            title: "Banana Smoothie"
+            icon: "croptopia:banana_smoothie"
+            x: 5.0d
+            y: 3.0d
+            description: ["Obtain: Banana Smoothie"]
+            tasks: [
+                {id: "T01E7", type: "item", item: "croptopia:banana_smoothie"}
+            ]
+            rewards: [
+                {id: "R02BC", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "39C5C907C78C5AF7"
+            title: "Barley"
+            icon: "croptopia:barley"
+            x: 0.0d
+            y: 4.0d
+            description: ["Obtain: Barley"]
+            tasks: [
+                {id: "T01E8", type: "item", item: "croptopia:barley"}
+            ]
+            rewards: [
+                {id: "R02BD", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "B6F11FC2504051BB"
+            title: "Basil"
+            icon: "croptopia:basil"
+            x: 1.0d
+            y: 4.0d
+            description: ["Obtain: Basil"]
+            tasks: [
+                {id: "T01E9", type: "item", item: "croptopia:basil"}
+            ]
+            rewards: [
+                {id: "R02BE", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "B3178AE159A15FF7"
+            title: "Beef Jerky"
+            icon: "croptopia:beef_jerky"
+            x: 2.0d
+            y: 4.0d
+            description: ["Obtain: Beef Jerky"]
+            tasks: [
+                {id: "T01EA", type: "item", item: "croptopia:beef_jerky"}
+            ]
+            rewards: [
+                {id: "R02BF", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "DF6C9C024B0A506C"
+            title: "Beef Stew"
+            icon: "croptopia:beef_stew"
+            x: 3.0d
+            y: 4.0d
+            description: ["Obtain: Beef Stew"]
+            tasks: [
+                {id: "T01EB", type: "item", item: "croptopia:beef_stew"}
+            ]
+            rewards: [
+                {id: "R02C0", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "00C1EC1041035A17"
+            title: "Beef Stir Fry"
+            icon: "croptopia:beef_stir_fry"
+            x: 4.0d
+            y: 4.0d
+            description: ["Obtain: Beef Stir Fry"]
+            tasks: [
+                {id: "T01EC", type: "item", item: "croptopia:beef_stir_fry"}
+            ]
+            rewards: [
+                {id: "R02C1", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "B239BCCEBA6A5A29"
+            title: "Beef Wellington"
+            icon: "croptopia:beef_wellington"
+            x: 5.0d
+            y: 4.0d
+            description: ["Obtain: Beef Wellington"]
+            tasks: [
+                {id: "T01ED", type: "item", item: "croptopia:beef_wellington"}
+            ]
+            rewards: [
+                {id: "R02C2", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "60C0F11BFA7B5E5D"
+            title: "Beer"
+            icon: "croptopia:beer"
+            x: 0.0d
+            y: 5.0d
+            description: ["Obtain: Beer"]
+            tasks: [
+                {id: "T01EE", type: "item", item: "croptopia:beer"}
+            ]
+            rewards: [
+                {id: "R02C3", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "3DC9467F0BAC58F5"
+            title: "Beetroot Salad"
+            icon: "croptopia:beetroot_salad"
+            x: 1.0d
+            y: 5.0d
+            description: ["Obtain: Beetroot Salad"]
+            tasks: [
+                {id: "T01EF", type: "item", item: "croptopia:beetroot_salad"}
+            ]
+            rewards: [
+                {id: "R02C4", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "5F2C182EE07054C1"
+            title: "Bellpepper"
+            icon: "croptopia:bellpepper"
+            x: 2.0d
+            y: 5.0d
+            description: ["Obtain: Bellpepper"]
+            tasks: [
+                {id: "T01F0", type: "item", item: "croptopia:bellpepper"}
+            ]
+            rewards: [
+                {id: "R02C5", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "C4D296411A765F95"
+            title: "Blackbean"
+            icon: "croptopia:blackbean"
+            x: 3.0d
+            y: 5.0d
+            description: ["Obtain: Blackbean"]
+            tasks: [
+                {id: "T01F1", type: "item", item: "croptopia:blackbean"}
+            ]
+            rewards: [
+                {id: "R02C6", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "DAA177C706FC5671"
+            title: "Blackberry"
+            icon: "croptopia:blackberry"
+            x: 4.0d
+            y: 5.0d
+            description: ["Obtain: Blackberry"]
+            tasks: [
+                {id: "T01F2", type: "item", item: "croptopia:blackberry"}
+            ]
+            rewards: [
+                {id: "R02C7", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "0F5206546F30593D"
+            title: "Blackberry Jam"
+            icon: "croptopia:blackberry_jam"
+            x: 5.0d
+            y: 5.0d
+            description: ["Obtain: Blackberry Jam"]
+            tasks: [
+                {id: "T01F3", type: "item", item: "croptopia:blackberry_jam"}
+            ]
+            rewards: [
+                {id: "R02C8", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "A7DCB28CF5B85E51"
+            title: "Blt"
+            icon: "croptopia:blt"
+            x: 0.0d
+            y: 6.0d
+            description: ["Obtain: Blt"]
+            tasks: [
+                {id: "T01F4", type: "item", item: "croptopia:blt"}
+            ]
+            rewards: [
+                {id: "R02C9", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "3367A9965F555470"
+            title: "Blueberry"
+            icon: "croptopia:blueberry"
+            x: 1.0d
+            y: 6.0d
+            description: ["Obtain: Blueberry"]
+            tasks: [
+                {id: "T01F5", type: "item", item: "croptopia:blueberry"}
+            ]
+            rewards: [
+                {id: "R02CA", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "BC1CBDEAA91E5D18"
+            title: "Blueberry Jam"
+            icon: "croptopia:blueberry_jam"
+            x: 2.0d
+            y: 6.0d
+            description: ["Obtain: Blueberry Jam"]
+            tasks: [
+                {id: "T01F6", type: "item", item: "croptopia:blueberry_jam"}
+            ]
+            rewards: [
+                {id: "R02CB", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "77E3B99F6DE7504E"
+            title: "Borscht"
+            icon: "croptopia:borscht"
+            x: 3.0d
+            y: 6.0d
+            description: ["Obtain: Borscht"]
+            tasks: [
+                {id: "T01F7", type: "item", item: "croptopia:borscht"}
+            ]
+            rewards: [
+                {id: "R02CC", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "42BBF1F2C7DE5574"
+            title: "Broccoli"
+            icon: "croptopia:broccoli"
+            x: 4.0d
+            y: 6.0d
+            description: ["Obtain: Broccoli"]
+            tasks: [
+                {id: "T01F8", type: "item", item: "croptopia:broccoli"}
+            ]
+            rewards: [
+                {id: "R02CD", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "9C7F95E6ECDD520B"
+            title: "Brownies"
+            icon: "croptopia:brownies"
+            x: 5.0d
+            y: 6.0d
+            description: ["Obtain: Brownies"]
+            tasks: [
+                {id: "T01F9", type: "item", item: "croptopia:brownies"}
+            ]
+            rewards: [
+                {id: "R02CE", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "03B688B1A1785221"
+            title: "Burrito"
+            icon: "croptopia:burrito"
+            x: 0.0d
+            y: 7.0d
+            description: ["Obtain: Burrito"]
+            tasks: [
+                {id: "T01FA", type: "item", item: "croptopia:burrito"}
+            ]
+            rewards: [
+                {id: "R02CF", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "C4715F133D815228"
+            title: "Butter"
+            icon: "croptopia:butter"
+            x: 1.0d
+            y: 7.0d
+            description: ["Obtain: Butter"]
+            tasks: [
+                {id: "T01FB", type: "item", item: "croptopia:butter"}
+            ]
+            rewards: [
+                {id: "R02D0", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "06CC25C3AD4353B7"
+            title: "Buttered Green Beans"
+            icon: "croptopia:buttered_green_beans"
+            x: 2.0d
+            y: 7.0d
+            description: ["Obtain: Buttered Green Beans"]
+            tasks: [
+                {id: "T01FC", type: "item", item: "croptopia:buttered_green_beans"}
+            ]
+            rewards: [
+                {id: "R02D1", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "D0500AFA59DF58F6"
+            title: "Buttered Toast"
+            icon: "croptopia:buttered_toast"
+            x: 3.0d
+            y: 7.0d
+            description: ["Obtain: Buttered Toast"]
+            tasks: [
+                {id: "T01FD", type: "item", item: "croptopia:buttered_toast"}
+            ]
+            rewards: [
+                {id: "R02D2", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "A37E9B33E7545B17"
+            title: "Cabbage"
+            icon: "croptopia:cabbage"
+            x: 4.0d
+            y: 7.0d
+            description: ["Obtain: Cabbage"]
+            tasks: [
+                {id: "T01FE", type: "item", item: "croptopia:cabbage"}
+            ]
+            rewards: [
+                {id: "R02D3", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "1B986AE0F7075C15"
+            title: "Cabbage Roll"
+            icon: "croptopia:cabbage_roll"
+            x: 5.0d
+            y: 7.0d
+            description: ["Obtain: Cabbage Roll"]
+            tasks: [
+                {id: "T01FF", type: "item", item: "croptopia:cabbage_roll"}
+            ]
+            rewards: [
+                {id: "R02D4", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "28CA36F5FF725098"
+            title: "Caesar Salad"
+            icon: "croptopia:caesar_salad"
+            x: 0.0d
+            y: 8.0d
+            description: ["Obtain: Caesar Salad"]
+            tasks: [
+                {id: "T0200", type: "item", item: "croptopia:caesar_salad"}
+            ]
+            rewards: [
+                {id: "R02D5", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "0AD9DFD09ED85005"
+            title: "Calamari"
+            icon: "croptopia:calamari"
+            x: 1.0d
+            y: 8.0d
+            description: ["Obtain: Calamari"]
+            tasks: [
+                {id: "T0201", type: "item", item: "croptopia:calamari"}
+            ]
+            rewards: [
+                {id: "R02D6", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "566C26E08B8852CA"
+            title: "Candied Kumquats"
+            icon: "croptopia:candied_kumquats"
+            x: 2.0d
+            y: 8.0d
+            description: ["Obtain: Candied Kumquats"]
+            tasks: [
+                {id: "T0202", type: "item", item: "croptopia:candied_kumquats"}
+            ]
+            rewards: [
+                {id: "R02D7", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "F0AB36FFE2565A1C"
+            title: "Candied Nuts"
+            icon: "croptopia:candied_nuts"
+            x: 3.0d
+            y: 8.0d
+            description: ["Obtain: Candied Nuts"]
+            tasks: [
+                {id: "T0203", type: "item", item: "croptopia:candied_nuts"}
+            ]
+            rewards: [
+                {id: "R02D8", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "D3DDB0149439581F"
+            title: "Candy Corn"
+            icon: "croptopia:candy_corn"
+            x: 4.0d
+            y: 8.0d
+            description: ["Obtain: Candy Corn"]
+            tasks: [
+                {id: "T0204", type: "item", item: "croptopia:candy_corn"}
+            ]
+            rewards: [
+                {id: "R02D9", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "EB1D6E5B254A5A23"
+            title: "Cantaloupe"
+            icon: "croptopia:cantaloupe"
+            x: 5.0d
+            y: 8.0d
+            description: ["Obtain: Cantaloupe"]
+            tasks: [
+                {id: "T0205", type: "item", item: "croptopia:cantaloupe"}
+            ]
+            rewards: [
+                {id: "R02DA", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "9E04E76A619853CF"
+            title: "Caramel"
+            icon: "croptopia:caramel"
+            x: 0.0d
+            y: 9.0d
+            description: ["Obtain: Caramel"]
+            tasks: [
+                {id: "T0206", type: "item", item: "croptopia:caramel"}
+            ]
+            rewards: [
+                {id: "R02DB", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "AA1A23F81FB855ED"
+            title: "Carnitas"
+            icon: "croptopia:carnitas"
+            x: 1.0d
+            y: 9.0d
+            description: ["Obtain: Carnitas"]
+            tasks: [
+                {id: "T0207", type: "item", item: "croptopia:carnitas"}
+            ]
+            rewards: [
+                {id: "R02DC", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "FBAF5F2532CC5CBA"
+            title: "Cashew"
+            icon: "croptopia:cashew"
+            x: 2.0d
+            y: 9.0d
+            description: ["Obtain: Cashew"]
+            tasks: [
+                {id: "T0208", type: "item", item: "croptopia:cashew"}
+            ]
+            rewards: [
+                {id: "R02DD", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "8207E7E6356E5BAA"
+            title: "Cashew Chicken"
+            icon: "croptopia:cashew_chicken"
+            x: 3.0d
+            y: 9.0d
+            description: ["Obtain: Cashew Chicken"]
+            tasks: [
+                {id: "T0209", type: "item", item: "croptopia:cashew_chicken"}
+            ]
+            rewards: [
+                {id: "R02DE", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "D2B6038B74295179"
+            title: "Cauliflower"
+            icon: "croptopia:cauliflower"
+            x: 4.0d
+            y: 9.0d
+            description: ["Obtain: Cauliflower"]
+            tasks: [
+                {id: "T020A", type: "item", item: "croptopia:cauliflower"}
+            ]
+            rewards: [
+                {id: "R02DF", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "7F0EDE862A095328"
+            title: "Celery"
+            icon: "croptopia:celery"
+            x: 5.0d
+            y: 9.0d
+            description: ["Obtain: Celery"]
+            tasks: [
+                {id: "T020B", type: "item", item: "croptopia:celery"}
+            ]
+            rewards: [
+                {id: "R02E0", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "2AAB9D98F9A85586"
+            title: "Cheese"
+            icon: "croptopia:cheese"
+            x: 0.0d
+            y: 10.0d
+            description: ["Obtain: Cheese"]
+            tasks: [
+                {id: "T020C", type: "item", item: "croptopia:cheese"}
+            ]
+            rewards: [
+                {id: "R02E1", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "4C273773917E5A1D"
+            title: "Cheese Cake"
+            icon: "croptopia:cheese_cake"
+            x: 1.0d
+            y: 10.0d
+            description: ["Obtain: Cheese Cake"]
+            tasks: [
+                {id: "T020D", type: "item", item: "croptopia:cheese_cake"}
+            ]
+            rewards: [
+                {id: "R02E2", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "1BB3A22CCBC75EE0"
+            title: "Cheese Pizza"
+            icon: "croptopia:cheese_pizza"
+            x: 2.0d
+            y: 10.0d
+            description: ["Obtain: Cheese Pizza"]
+            tasks: [
+                {id: "T020E", type: "item", item: "croptopia:cheese_pizza"}
+            ]
+            rewards: [
+                {id: "R02E3", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "534B14A4DE9D5335"
+            title: "Cheeseburger"
+            icon: "croptopia:cheeseburger"
+            x: 3.0d
+            y: 10.0d
+            description: ["Obtain: Cheeseburger"]
+            tasks: [
+                {id: "T020F", type: "item", item: "croptopia:cheeseburger"}
+            ]
+            rewards: [
+                {id: "R02E4", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "EB26433F839D50A5"
+            title: "Cheesy Asparagus"
+            icon: "croptopia:cheesy_asparagus"
+            x: 4.0d
+            y: 10.0d
+            description: ["Obtain: Cheesy Asparagus"]
+            tasks: [
+                {id: "T0210", type: "item", item: "croptopia:cheesy_asparagus"}
+            ]
+            rewards: [
+                {id: "R02E5", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "B0AD23B4412A5EDA"
+            title: "Cherry"
+            icon: "croptopia:cherry"
+            x: 5.0d
+            y: 10.0d
+            description: ["Obtain: Cherry"]
+            tasks: [
+                {id: "T0211", type: "item", item: "croptopia:cherry"}
+            ]
+            rewards: [
+                {id: "R02E6", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "01C1EB5263505A2E"
+            title: "Cherry Jam"
+            icon: "croptopia:cherry_jam"
+            x: 0.0d
+            y: 11.0d
+            description: ["Obtain: Cherry Jam"]
+            tasks: [
+                {id: "T0212", type: "item", item: "croptopia:cherry_jam"}
+            ]
+            rewards: [
+                {id: "R02E7", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "6E2F204775015EE2"
+            title: "Cherry Pie"
+            icon: "croptopia:cherry_pie"
+            x: 1.0d
+            y: 11.0d
+            description: ["Obtain: Cherry Pie"]
+            tasks: [
+                {id: "T0213", type: "item", item: "croptopia:cherry_pie"}
+            ]
+            rewards: [
+                {id: "R02E8", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "A8C1080404BC5AB7"
+            title: "Chicken And Dumplings"
+            icon: "croptopia:chicken_and_dumplings"
+            x: 2.0d
+            y: 11.0d
+            description: ["Obtain: Chicken And Dumplings"]
+            tasks: [
+                {id: "T0214", type: "item", item: "croptopia:chicken_and_dumplings"}
+            ]
+            rewards: [
+                {id: "R02E9", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "C14154A347C85DBE"
+            title: "Chicken And Noodles"
+            icon: "croptopia:chicken_and_noodles"
+            x: 3.0d
+            y: 11.0d
+            description: ["Obtain: Chicken And Noodles"]
+            tasks: [
+                {id: "T0215", type: "item", item: "croptopia:chicken_and_noodles"}
+            ]
+            rewards: [
+                {id: "R02EA", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "D4592DDC69285D24"
+            title: "Chicken And Rice"
+            icon: "croptopia:chicken_and_rice"
+            x: 4.0d
+            y: 11.0d
+            description: ["Obtain: Chicken And Rice"]
+            tasks: [
+                {id: "T0216", type: "item", item: "croptopia:chicken_and_rice"}
+            ]
+            rewards: [
+                {id: "R02EB", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "93E17DC305195D30"
+            title: "Chile Pepper"
+            icon: "croptopia:chile_pepper"
+            x: 5.0d
+            y: 11.0d
+            description: ["Obtain: Chile Pepper"]
+            tasks: [
+                {id: "T0217", type: "item", item: "croptopia:chile_pepper"}
+            ]
+            rewards: [
+                {id: "R02EC", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "6E0BDCB10A345462"
+            title: "Chili Relleno"
+            icon: "croptopia:chili_relleno"
+            x: 0.0d
+            y: 12.0d
+            description: ["Obtain: Chili Relleno"]
+            tasks: [
+                {id: "T0218", type: "item", item: "croptopia:chili_relleno"}
+            ]
+            rewards: [
+                {id: "R02ED", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "D6BC0E634DCE5A26"
+            title: "Chimichanga"
+            icon: "croptopia:chimichanga"
+            x: 1.0d
+            y: 12.0d
+            description: ["Obtain: Chimichanga"]
+            tasks: [
+                {id: "T0219", type: "item", item: "croptopia:chimichanga"}
+            ]
+            rewards: [
+                {id: "R02EE", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "8E0F1E8CD8295AD0"
+            title: "Chocolate"
+            icon: "croptopia:chocolate"
+            x: 2.0d
+            y: 12.0d
+            description: ["Obtain: Chocolate"]
+            tasks: [
+                {id: "T021A", type: "item", item: "croptopia:chocolate"}
+            ]
+            rewards: [
+                {id: "R02EF", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "C75F76EDB5FB551F"
+            title: "Chocolate Ice Cream"
+            icon: "croptopia:chocolate_ice_cream"
+            x: 3.0d
+            y: 12.0d
+            description: ["Obtain: Chocolate Ice Cream"]
+            tasks: [
+                {id: "T021B", type: "item", item: "croptopia:chocolate_ice_cream"}
+            ]
+            rewards: [
+                {id: "R02F0", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "3266563995BA5538"
+            title: "Chocolate Milkshake"
+            icon: "croptopia:chocolate_milkshake"
+            x: 4.0d
+            y: 12.0d
+            description: ["Obtain: Chocolate Milkshake"]
+            tasks: [
+                {id: "T021C", type: "item", item: "croptopia:chocolate_milkshake"}
+            ]
+            rewards: [
+                {id: "R02F1", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "390B8C82F57A5BC1"
+            title: "Churros"
+            icon: "croptopia:churros"
+            x: 5.0d
+            y: 12.0d
+            description: ["Obtain: Churros"]
+            tasks: [
+                {id: "T021D", type: "item", item: "croptopia:churros"}
+            ]
+            rewards: [
+                {id: "R02F2", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "F7E31510012F506D"
+            title: "Cinnamon"
+            icon: "croptopia:cinnamon"
+            x: 0.0d
+            y: 13.0d
+            description: ["Obtain: Cinnamon"]
+            tasks: [
+                {id: "T021E", type: "item", item: "croptopia:cinnamon"}
+            ]
+            rewards: [
+                {id: "R02F3", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "59E24570E3B858F1"
+            title: "Cinnamon Log"
+            icon: "croptopia:cinnamon_log"
+            x: 1.0d
+            y: 13.0d
+            description: ["Obtain: Cinnamon Log"]
+            tasks: [
+                {id: "T021F", type: "item", item: "croptopia:cinnamon_log"}
+            ]
+            rewards: [
+                {id: "R02F4", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "74C445CA619E5964"
+            title: "Cinnamon Roll"
+            icon: "croptopia:cinnamon_roll"
+            x: 2.0d
+            y: 13.0d
+            description: ["Obtain: Cinnamon Roll"]
+            tasks: [
+                {id: "T0220", type: "item", item: "croptopia:cinnamon_roll"}
+            ]
+            rewards: [
+                {id: "R02F5", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "493C16C059725B91"
+            title: "Cinnamon Wood"
+            icon: "croptopia:cinnamon_wood"
+            x: 3.0d
+            y: 13.0d
+            description: ["Obtain: Cinnamon Wood"]
+            tasks: [
+                {id: "T0221", type: "item", item: "croptopia:cinnamon_wood"}
+            ]
+            rewards: [
+                {id: "R02F6", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "3A105F38052A5F8A"
+            title: "Clam"
+            icon: "croptopia:clam"
+            x: 4.0d
+            y: 13.0d
+            description: ["Obtain: Clam"]
+            tasks: [
+                {id: "T0222", type: "item", item: "croptopia:clam"}
+            ]
+            rewards: [
+                {id: "R02F7", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "A497645A8F025FB5"
+            title: "Coconut"
+            icon: "croptopia:coconut"
+            x: 5.0d
+            y: 13.0d
+            description: ["Obtain: Coconut"]
+            tasks: [
+                {id: "T0223", type: "item", item: "croptopia:coconut"}
+            ]
+            rewards: [
+                {id: "R02F8", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "5DB6F6E3ECC351A0"
+            title: "Coffee"
+            icon: "croptopia:coffee"
+            x: 0.0d
+            y: 14.0d
+            description: ["Obtain: Coffee"]
+            tasks: [
+                {id: "T0224", type: "item", item: "croptopia:coffee"}
+            ]
+            rewards: [
+                {id: "R02F9", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "5EDB4D6E31635577"
+            title: "Coffee Beans"
+            icon: "croptopia:coffee_beans"
+            x: 1.0d
+            y: 14.0d
+            description: ["Obtain: Coffee Beans"]
+            tasks: [
+                {id: "T0225", type: "item", item: "croptopia:coffee_beans"}
+            ]
+            rewards: [
+                {id: "R02FA", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "9FCB6AC5D8B252C2"
+            title: "Cooked Anchovy"
+            icon: "croptopia:cooked_anchovy"
+            x: 2.0d
+            y: 14.0d
+            description: ["Obtain: Cooked Anchovy"]
+            tasks: [
+                {id: "T0226", type: "item", item: "croptopia:cooked_anchovy"}
+            ]
+            rewards: [
+                {id: "R02FB", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "1120F2FA5A7F50A6"
+            title: "Cooked Bacon"
+            icon: "croptopia:cooked_bacon"
+            x: 3.0d
+            y: 14.0d
+            description: ["Obtain: Cooked Bacon"]
+            tasks: [
+                {id: "T0227", type: "item", item: "croptopia:cooked_bacon"}
+            ]
+            rewards: [
+                {id: "R02FC", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "768C92EFB71650A6"
+            title: "Cooked Calamari"
+            icon: "croptopia:cooked_calamari"
+            x: 4.0d
+            y: 14.0d
+            description: ["Obtain: Cooked Calamari"]
+            tasks: [
+                {id: "T0228", type: "item", item: "croptopia:cooked_calamari"}
+            ]
+            rewards: [
+                {id: "R02FD", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "2C1D63E91EBB55C6"
+            title: "Cooked Ravager Meat"
+            icon: "croptopia:cooked_ravager_meat"
+            x: 5.0d
+            y: 14.0d
+            description: ["Obtain: Cooked Ravager Meat"]
+            tasks: [
+                {id: "T0229", type: "item", item: "croptopia:cooked_ravager_meat"}
+            ]
+            rewards: [
+                {id: "R02FE", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "5DE87B27CE735F85"
+            title: "Cooked Shrimp"
+            icon: "croptopia:cooked_shrimp"
+            x: 0.0d
+            y: 15.0d
+            description: ["Obtain: Cooked Shrimp"]
+            tasks: [
+                {id: "T022A", type: "item", item: "croptopia:cooked_shrimp"}
+            ]
+            rewards: [
+                {id: "R02FF", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "96A7AD48E4E1571F"
+            title: "Cooked Tuna"
+            icon: "croptopia:cooked_tuna"
+            x: 1.0d
+            y: 15.0d
+            description: ["Obtain: Cooked Tuna"]
+            tasks: [
+                {id: "T022B", type: "item", item: "croptopia:cooked_tuna"}
+            ]
+            rewards: [
+                {id: "R0300", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "9B1C1A2203FA5C81"
+            title: "Cooking Pot"
+            icon: "croptopia:cooking_pot"
+            x: 2.0d
+            y: 15.0d
+            description: ["Obtain: Cooking Pot"]
+            tasks: [
+                {id: "T022C", type: "item", item: "croptopia:cooking_pot"}
+            ]
+            rewards: [
+                {id: "R0301", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "4D7149D7DB8D5795"
+            title: "Corn"
+            icon: "croptopia:corn"
+            x: 3.0d
+            y: 15.0d
+            description: ["Obtain: Corn"]
+            tasks: [
+                {id: "T022D", type: "item", item: "croptopia:corn"}
+            ]
+            rewards: [
+                {id: "R0302", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "73A2948EBBAC5161"
+            title: "Corn Bread"
+            icon: "croptopia:corn_bread"
+            x: 4.0d
+            y: 15.0d
+            description: ["Obtain: Corn Bread"]
+            tasks: [
+                {id: "T022E", type: "item", item: "croptopia:corn_bread"}
+            ]
+            rewards: [
+                {id: "R0303", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "F5B1421E05085A30"
+            title: "Corn Husk"
+            icon: "croptopia:corn_husk"
+            x: 5.0d
+            y: 15.0d
+            description: ["Obtain: Corn Husk"]
+            tasks: [
+                {id: "T022F", type: "item", item: "croptopia:corn_husk"}
+            ]
+            rewards: [
+                {id: "R0304", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "67BCCFA97EA954C7"
+            title: "Cornish Pasty"
+            icon: "croptopia:cornish_pasty"
+            x: 0.0d
+            y: 16.0d
+            description: ["Obtain: Cornish Pasty"]
+            tasks: [
+                {id: "T0230", type: "item", item: "croptopia:cornish_pasty"}
+            ]
+            rewards: [
+                {id: "R0305", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "80F554C754175C13"
+            title: "Crab"
+            icon: "croptopia:crab"
+            x: 1.0d
+            y: 16.0d
+            description: ["Obtain: Crab"]
+            tasks: [
+                {id: "T0231", type: "item", item: "croptopia:crab"}
+            ]
+            rewards: [
+                {id: "R0306", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "5E8B6AC78E6953A4"
+            title: "Crab Legs"
+            icon: "croptopia:crab_legs"
+            x: 2.0d
+            y: 16.0d
+            description: ["Obtain: Crab Legs"]
+            tasks: [
+                {id: "T0232", type: "item", item: "croptopia:crab_legs"}
+            ]
+            rewards: [
+                {id: "R0307", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "5E1C09761C625EE0"
+            title: "Cranberry"
+            icon: "croptopia:cranberry"
+            x: 3.0d
+            y: 16.0d
+            description: ["Obtain: Cranberry"]
+            tasks: [
+                {id: "T0233", type: "item", item: "croptopia:cranberry"}
+            ]
+            rewards: [
+                {id: "R0308", type: "xp", xp: "2L"}
+            ]
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: "square"
+    filename: "steel"
+    icon: "minecraft:iron_ingot"
+    id: "9E10C07BE1265AA9"
+    order_index: 9
+    quest_links: [ ]
+    title: "TFC: Steel and Advanced Metallurgy"
+    description: "Refine iron into steel via cementation."
+    quests: [
+        {
+            id: "0E7B21A6722254A8"
+            title: "Pig Iron"
+            icon: "minecraft:iron_ingot"
+            x: 0.0d
+            y: 0.0d
+            description: ["Bloom iron with high carbon for pig iron."]
+            tasks: [
+                {id: "T016D", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0226", type: "item", item: "minecraft:iron_ore", count: 4L}
+                {id: "R0227", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "1C9480D58C6D5FB2"
+            title: "Cementation Furnace"
+            icon: "minecraft:blast_furnace"
+            x: 1.0d
+            y: 0.0d
+            description: ["Build a cementation furnace."]
+            tasks: [
+                {id: "T016E", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0228", type: "item", item: "minecraft:bricks", count: 4L}
+                {id: "R0229", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["0E7B21A6722254A8"]
+        }
+        {
+            id: "615102C9469F5FBC"
+            title: "Steel Ingot"
+            icon: "minecraft:iron_ingot"
+            x: 2.0d
+            y: 0.0d
+            description: ["Process pig iron for 12+ hours."]
+            tasks: [
+                {id: "T016F", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R022A", type: "item", item: "minecraft:iron_ingot", count: 2L}
+                {id: "R022B", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["1C9480D58C6D5FB2"]
+        }
+        {
+            id: "93A17F607BAB5EDE"
+            title: "Blast Furnace"
+            icon: "minecraft:blast_furnace"
+            x: 3.0d
+            y: 0.0d
+            description: ["Build a blast furnace for industrial smelting."]
+            tasks: [
+                {id: "T0170", type: "item", item: "minecraft:blast_furnace"}
+            ]
+            rewards: [
+                {id: "R022C", type: "item", item: "minecraft:bricks", count: 8L}
+                {id: "R022D", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["615102C9469F5FBC"]
+        }
+        {
+            id: "86014E11D9F4591D"
+            title: "Steel Pickaxe"
+            icon: "minecraft:diamond_pickaxe"
+            x: 4.0d
+            y: 0.0d
+            description: ["Forge steel pickaxe. Top-tier mining."]
+            tasks: [
+                {id: "T0171", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R022E", type: "item", item: "minecraft:iron_ingot", count: 2L}
+                {id: "R022F", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["615102C9469F5FBC"]
+        }
+        {
+            id: "425B9B2548955866"
+            title: "Steel Sword"
+            icon: "minecraft:diamond_sword"
+            x: 5.0d
+            y: 0.0d
+            description: ["Forge steel sword."]
+            tasks: [
+                {id: "T0172", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0230", type: "item", item: "minecraft:iron_ingot", count: 2L}
+                {id: "R0231", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["615102C9469F5FBC"]
+        }
+        {
+            id: "6A254F9258CD53B2"
+            title: "Steel Armor"
+            icon: "minecraft:diamond_chestplate"
+            x: 0.0d
+            y: 1.0d
+            description: ["Craft steel armor. Best protection."]
+            tasks: [
+                {id: "T0173", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0232", type: "item", item: "minecraft:iron_ingot", count: 4L}
+                {id: "R0233", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["615102C9469F5FBC"]
+        }
+        {
+            id: "2E243F2193BA5309"
+            title: "Full Steel Set"
+            icon: "minecraft:diamond_pickaxe"
+            x: 1.0d
+            y: 1.0d
+            description: ["Replace all tools with steel."]
+            tasks: [
+                {id: "T0174", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0234", type: "xp", xp: "20L"}
+                {id: "R0235", type: "item", item: "minecraft:iron_ingot", count: 8L}
+            ]
+            dependencies: ["86014E11D9F4591D","425B9B2548955866","6A254F9258CD53B2"]
+        }
+        {
+            id: "E9E5394D168E595E"
+            title: "Steel Stockpile"
+            icon: "minecraft:iron_ingot"
+            x: 2.0d
+            y: 1.0d
+            description: ["Stockpile 32+ steel ingots."]
+            tasks: [
+                {id: "T0175", type: "item", item: "minecraft:iron_ingot", count: 32L}
+            ]
+            rewards: [
+                {id: "R0236", type: "item", item: "minecraft:iron_ingot", count: 8L}
+                {id: "R0237", type: "xp", xp: "1L"}
+            ]
+            dependencies: ["615102C9469F5FBC"]
+        }
+        {
+            id: "F32344E8C3D550E3"
+            title: "Steel Master"
+            icon: "minecraft:netherite_ingot"
+            x: 3.0d
+            y: 1.0d
+            description: ["You've reached the apex of TFC metallurgy!"]
+            tasks: [
+                {id: "T0176", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R0238", type: "xp", xp: "30L"}
+                {id: "R0239", type: "item", item: "minecraft:netherite_ingot"}
+            ]
+            dependencies: ["2E243F2193BA5309","E9E5394D168E595E"]
+        }
+    ]
+}

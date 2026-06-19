@@ -1,0 +1,2436 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: "square"
+    filename: "cooking"
+    icon: "minecraft:bread"
+    id: "301CA034E5B65897"
+    order_index: 5
+    quest_links: [ ]
+    title: "TFC: Cooking and Cuisine"
+    description: "Cook every TFC dish! 172 food items to master."
+    quests: [
+        {
+            id: "F696776575C153FF"
+            title: "TFC Cooking"
+            icon: "minecraft:campfire"
+            x: 0.0d
+            y: 0.0d
+            description: ["TFC cooking uses fires, pots, pans, and grills."]
+            tasks: [
+                {id: "T006F", type: "checkmark"}
+            ]
+            rewards: [
+                {id: "R00D6", type: "item", item: "minecraft:campfire"}
+                {id: "R00D7", type: "xp", xp: "1L"}
+            ]
+        }
+        {
+            id: "E4A854D387865576"
+            title: "Baked Potato"
+            icon: "tfc:food/baked_potato"
+            x: 0.0d
+            y: 1.0d
+            description: ["Obtain baked potato."]
+            tasks: [
+                {id: "T0070", type: "item", item: "tfc:food/baked_potato"}
+            ]
+            rewards: [
+                {id: "R00D8", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "2FEA275765B4568A"
+            title: "Banana"
+            icon: "tfc:food/banana"
+            x: 1.0d
+            y: 1.0d
+            description: ["Obtain banana."]
+            tasks: [
+                {id: "T0071", type: "item", item: "tfc:food/banana"}
+            ]
+            rewards: [
+                {id: "R00D9", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "91B263885EAD5DE6"
+            title: "Barley"
+            icon: "tfc:food/barley"
+            x: 2.0d
+            y: 1.0d
+            description: ["Obtain barley."]
+            tasks: [
+                {id: "T0072", type: "item", item: "tfc:food/barley"}
+            ]
+            rewards: [
+                {id: "R00DA", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "CE096B9ED8D75624"
+            title: "Barley Bread"
+            icon: "tfc:food/barley_bread"
+            x: 3.0d
+            y: 1.0d
+            description: ["Bake barley bread from grain dough."]
+            tasks: [
+                {id: "T0073", type: "item", item: "tfc:food/barley_bread"}
+            ]
+            rewards: [
+                {id: "R00DB", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "7B736AFF7CCA5700"
+            title: "Barley Bread Jam Sandwich"
+            icon: "tfc:food/barley_bread_jam_sandwich"
+            x: 4.0d
+            y: 1.0d
+            description: ["Bake barley bread jam sandwich from grain dough."]
+            tasks: [
+                {id: "T0074", type: "item", item: "tfc:food/barley_bread_jam_sandwich"}
+            ]
+            rewards: [
+                {id: "R00DC", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "9E93B9157F0F5B47"
+            title: "Barley Bread Sandwich"
+            icon: "tfc:food/barley_bread_sandwich"
+            x: 5.0d
+            y: 1.0d
+            description: ["Bake barley bread sandwich from grain dough."]
+            tasks: [
+                {id: "T0075", type: "item", item: "tfc:food/barley_bread_sandwich"}
+            ]
+            rewards: [
+                {id: "R00DD", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "62601E6B37FC5618"
+            title: "Barley Dough"
+            icon: "tfc:food/barley_dough"
+            x: 0.0d
+            y: 2.0d
+            description: ["Process grain to get barley dough."]
+            tasks: [
+                {id: "T0076", type: "item", item: "tfc:food/barley_dough"}
+            ]
+            rewards: [
+                {id: "R00DE", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "703A4FADC4AF5F78"
+            title: "Barley Flour"
+            icon: "tfc:food/barley_flour"
+            x: 1.0d
+            y: 2.0d
+            description: ["Process grain to get barley flour."]
+            tasks: [
+                {id: "T0077", type: "item", item: "tfc:food/barley_flour"}
+            ]
+            rewards: [
+                {id: "R00DF", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "153B2475C9345BE2"
+            title: "Barley Grain"
+            icon: "tfc:food/barley_grain"
+            x: 2.0d
+            y: 2.0d
+            description: ["Process grain to get barley grain."]
+            tasks: [
+                {id: "T0078", type: "item", item: "tfc:food/barley_grain"}
+            ]
+            rewards: [
+                {id: "R00E0", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "D7354773D4F45C85"
+            title: "Bear"
+            icon: "tfc:food/bear"
+            x: 3.0d
+            y: 2.0d
+            description: ["Obtain bear."]
+            tasks: [
+                {id: "T0079", type: "item", item: "tfc:food/bear"}
+            ]
+            rewards: [
+                {id: "R00E1", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "DF97C12CC8F55E57"
+            title: "Beef"
+            icon: "tfc:food/beef"
+            x: 4.0d
+            y: 2.0d
+            description: ["Obtain beef."]
+            tasks: [
+                {id: "T007A", type: "item", item: "tfc:food/beef"}
+            ]
+            rewards: [
+                {id: "R00E2", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "27CE3A69126B5F94"
+            title: "Beet"
+            icon: "tfc:food/beet"
+            x: 5.0d
+            y: 2.0d
+            description: ["Obtain beet."]
+            tasks: [
+                {id: "T007B", type: "item", item: "tfc:food/beet"}
+            ]
+            rewards: [
+                {id: "R00E3", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "73DB7CD8C664556D"
+            title: "Bison"
+            icon: "tfc:food/bison"
+            x: 0.0d
+            y: 3.0d
+            description: ["Obtain bison."]
+            tasks: [
+                {id: "T007C", type: "item", item: "tfc:food/bison"}
+            ]
+            rewards: [
+                {id: "R00E4", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "B6F73D436C1357A4"
+            title: "Blackberry"
+            icon: "tfc:food/blackberry"
+            x: 1.0d
+            y: 3.0d
+            description: ["Obtain blackberry."]
+            tasks: [
+                {id: "T007D", type: "item", item: "tfc:food/blackberry"}
+            ]
+            rewards: [
+                {id: "R00E5", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "2F4DC638354759F5"
+            title: "Blueberry"
+            icon: "tfc:food/blueberry"
+            x: 2.0d
+            y: 3.0d
+            description: ["Obtain blueberry."]
+            tasks: [
+                {id: "T007E", type: "item", item: "tfc:food/blueberry"}
+            ]
+            rewards: [
+                {id: "R00E6", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "BC1FD98F445A5854"
+            title: "Bluegill"
+            icon: "tfc:food/bluegill"
+            x: 3.0d
+            y: 3.0d
+            description: ["Obtain bluegill."]
+            tasks: [
+                {id: "T007F", type: "item", item: "tfc:food/bluegill"}
+            ]
+            rewards: [
+                {id: "R00E7", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "AE77DA99BC1C5BF4"
+            title: "Boiled Egg"
+            icon: "tfc:food/boiled_egg"
+            x: 4.0d
+            y: 3.0d
+            description: ["Obtain boiled egg."]
+            tasks: [
+                {id: "T0080", type: "item", item: "tfc:food/boiled_egg"}
+            ]
+            rewards: [
+                {id: "R00E8", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "4BFDAF65C926507E"
+            title: "Bunchberry"
+            icon: "tfc:food/bunchberry"
+            x: 5.0d
+            y: 3.0d
+            description: ["Obtain bunchberry."]
+            tasks: [
+                {id: "T0081", type: "item", item: "tfc:food/bunchberry"}
+            ]
+            rewards: [
+                {id: "R00E9", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "0D8732D1DE0E5D1C"
+            title: "Cabbage"
+            icon: "tfc:food/cabbage"
+            x: 0.0d
+            y: 4.0d
+            description: ["Obtain cabbage."]
+            tasks: [
+                {id: "T0082", type: "item", item: "tfc:food/cabbage"}
+            ]
+            rewards: [
+                {id: "R00EA", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "DEE6D07CB3D556A1"
+            title: "Calamari"
+            icon: "tfc:food/calamari"
+            x: 1.0d
+            y: 4.0d
+            description: ["Obtain calamari."]
+            tasks: [
+                {id: "T0083", type: "item", item: "tfc:food/calamari"}
+            ]
+            rewards: [
+                {id: "R00EB", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "53106F650BBB50EE"
+            title: "Camelidae"
+            icon: "tfc:food/camelidae"
+            x: 2.0d
+            y: 4.0d
+            description: ["Obtain camelidae."]
+            tasks: [
+                {id: "T0084", type: "item", item: "tfc:food/camelidae"}
+            ]
+            rewards: [
+                {id: "R00EC", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "30C40B158D7B5A34"
+            title: "Carrot"
+            icon: "tfc:food/carrot"
+            x: 3.0d
+            y: 4.0d
+            description: ["Obtain carrot."]
+            tasks: [
+                {id: "T0085", type: "item", item: "tfc:food/carrot"}
+            ]
+            rewards: [
+                {id: "R00ED", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "E964C943E07D5F72"
+            title: "Cassava"
+            icon: "tfc:food/cassava"
+            x: 4.0d
+            y: 4.0d
+            description: ["Obtain cassava."]
+            tasks: [
+                {id: "T0086", type: "item", item: "tfc:food/cassava"}
+            ]
+            rewards: [
+                {id: "R00EE", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "406F43AD50DA54EB"
+            title: "Cattail Root"
+            icon: "tfc:food/cattail_root"
+            x: 5.0d
+            y: 4.0d
+            description: ["Obtain cattail root."]
+            tasks: [
+                {id: "T0087", type: "item", item: "tfc:food/cattail_root"}
+            ]
+            rewards: [
+                {id: "R00EF", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "B061BC0F27B5596F"
+            title: "Cheese"
+            icon: "tfc:food/cheese"
+            x: 0.0d
+            y: 5.0d
+            description: ["Obtain cheese."]
+            tasks: [
+                {id: "T0088", type: "item", item: "tfc:food/cheese"}
+            ]
+            rewards: [
+                {id: "R00F0", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "5D69AE1C217D545A"
+            title: "Cherry"
+            icon: "tfc:food/cherry"
+            x: 1.0d
+            y: 5.0d
+            description: ["Obtain cherry."]
+            tasks: [
+                {id: "T0089", type: "item", item: "tfc:food/cherry"}
+            ]
+            rewards: [
+                {id: "R00F1", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "C7FE0743120D5034"
+            title: "Chevon"
+            icon: "tfc:food/chevon"
+            x: 2.0d
+            y: 5.0d
+            description: ["Obtain chevon."]
+            tasks: [
+                {id: "T008A", type: "item", item: "tfc:food/chevon"}
+            ]
+            rewards: [
+                {id: "R00F2", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "DEADC68446E75168"
+            title: "Chicken"
+            icon: "tfc:food/chicken"
+            x: 3.0d
+            y: 5.0d
+            description: ["Obtain chicken."]
+            tasks: [
+                {id: "T008B", type: "item", item: "tfc:food/chicken"}
+            ]
+            rewards: [
+                {id: "R00F3", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "D8A0C556FA3156AD"
+            title: "Cloudberry"
+            icon: "tfc:food/cloudberry"
+            x: 4.0d
+            y: 5.0d
+            description: ["Obtain cloudberry."]
+            tasks: [
+                {id: "T008C", type: "item", item: "tfc:food/cloudberry"}
+            ]
+            rewards: [
+                {id: "R00F4", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "F89BF888FE4959F2"
+            title: "Cod"
+            icon: "tfc:food/cod"
+            x: 5.0d
+            y: 5.0d
+            description: ["Obtain cod."]
+            tasks: [
+                {id: "T008D", type: "item", item: "tfc:food/cod"}
+            ]
+            rewards: [
+                {id: "R00F5", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "A86D41FACE3859AC"
+            title: "Cooked Bear"
+            icon: "tfc:food/cooked_bear"
+            x: 0.0d
+            y: 6.0d
+            description: ["Cook bear on a fire or grill."]
+            tasks: [
+                {id: "T008E", type: "item", item: "tfc:food/cooked_bear"}
+            ]
+            rewards: [
+                {id: "R00F6", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "B7CA6E7A422C5A69"
+            title: "Cooked Beef"
+            icon: "tfc:food/cooked_beef"
+            x: 1.0d
+            y: 6.0d
+            description: ["Cook beef on a fire or grill."]
+            tasks: [
+                {id: "T008F", type: "item", item: "tfc:food/cooked_beef"}
+            ]
+            rewards: [
+                {id: "R00F7", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "1ED5C808F01B5A96"
+            title: "Cooked Bison"
+            icon: "tfc:food/cooked_bison"
+            x: 2.0d
+            y: 6.0d
+            description: ["Cook bison on a fire or grill."]
+            tasks: [
+                {id: "T0090", type: "item", item: "tfc:food/cooked_bison"}
+            ]
+            rewards: [
+                {id: "R00F8", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "9F39E85B05885139"
+            title: "Cooked Bluegill"
+            icon: "tfc:food/cooked_bluegill"
+            x: 3.0d
+            y: 6.0d
+            description: ["Cook bluegill on a fire or grill."]
+            tasks: [
+                {id: "T0091", type: "item", item: "tfc:food/cooked_bluegill"}
+            ]
+            rewards: [
+                {id: "R00F9", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "8473853BE64E5145"
+            title: "Cooked Calamari"
+            icon: "tfc:food/cooked_calamari"
+            x: 4.0d
+            y: 6.0d
+            description: ["Cook calamari on a fire or grill."]
+            tasks: [
+                {id: "T0092", type: "item", item: "tfc:food/cooked_calamari"}
+            ]
+            rewards: [
+                {id: "R00FA", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "776CE23D98545344"
+            title: "Cooked Camelidae"
+            icon: "tfc:food/cooked_camelidae"
+            x: 5.0d
+            y: 6.0d
+            description: ["Cook camelidae on a fire or grill."]
+            tasks: [
+                {id: "T0093", type: "item", item: "tfc:food/cooked_camelidae"}
+            ]
+            rewards: [
+                {id: "R00FB", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "B2CD7553E0F65BF5"
+            title: "Cooked Cassava"
+            icon: "tfc:food/cooked_cassava"
+            x: 0.0d
+            y: 7.0d
+            description: ["Cook cassava on a fire or grill."]
+            tasks: [
+                {id: "T0094", type: "item", item: "tfc:food/cooked_cassava"}
+            ]
+            rewards: [
+                {id: "R00FC", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "CB0B1F1799CB5235"
+            title: "Cooked Chevon"
+            icon: "tfc:food/cooked_chevon"
+            x: 1.0d
+            y: 7.0d
+            description: ["Cook chevon on a fire or grill."]
+            tasks: [
+                {id: "T0095", type: "item", item: "tfc:food/cooked_chevon"}
+            ]
+            rewards: [
+                {id: "R00FD", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "4F38E3F9D8305B84"
+            title: "Cooked Chicken"
+            icon: "tfc:food/cooked_chicken"
+            x: 2.0d
+            y: 7.0d
+            description: ["Cook chicken on a fire or grill."]
+            tasks: [
+                {id: "T0096", type: "item", item: "tfc:food/cooked_chicken"}
+            ]
+            rewards: [
+                {id: "R00FE", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "1390DD5D3E915E3E"
+            title: "Cooked Cod"
+            icon: "tfc:food/cooked_cod"
+            x: 3.0d
+            y: 7.0d
+            description: ["Cook cod on a fire or grill."]
+            tasks: [
+                {id: "T0097", type: "item", item: "tfc:food/cooked_cod"}
+            ]
+            rewards: [
+                {id: "R00FF", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "E57A2962B75E543E"
+            title: "Cooked Crappie"
+            icon: "tfc:food/cooked_crappie"
+            x: 4.0d
+            y: 7.0d
+            description: ["Cook crappie on a fire or grill."]
+            tasks: [
+                {id: "T0098", type: "item", item: "tfc:food/cooked_crappie"}
+            ]
+            rewards: [
+                {id: "R0100", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "D91D1B4445F25A72"
+            title: "Cooked Duck"
+            icon: "tfc:food/cooked_duck"
+            x: 5.0d
+            y: 7.0d
+            description: ["Cook duck on a fire or grill."]
+            tasks: [
+                {id: "T0099", type: "item", item: "tfc:food/cooked_duck"}
+            ]
+            rewards: [
+                {id: "R0101", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "30FD4EBF8FB45D7C"
+            title: "Cooked Egg"
+            icon: "tfc:food/cooked_egg"
+            x: 0.0d
+            y: 8.0d
+            description: ["Cook egg on a fire or grill."]
+            tasks: [
+                {id: "T009A", type: "item", item: "tfc:food/cooked_egg"}
+            ]
+            rewards: [
+                {id: "R0102", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "67712B61F0B2588F"
+            title: "Cooked Fox"
+            icon: "tfc:food/cooked_fox"
+            x: 1.0d
+            y: 8.0d
+            description: ["Cook fox on a fire or grill."]
+            tasks: [
+                {id: "T009B", type: "item", item: "tfc:food/cooked_fox"}
+            ]
+            rewards: [
+                {id: "R0103", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "1E6E063464A75DB8"
+            title: "Cooked Frog Legs"
+            icon: "tfc:food/cooked_frog_legs"
+            x: 2.0d
+            y: 8.0d
+            description: ["Cook frog legs on a fire or grill."]
+            tasks: [
+                {id: "T009C", type: "item", item: "tfc:food/cooked_frog_legs"}
+            ]
+            rewards: [
+                {id: "R0104", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "C92852FFC1CE577E"
+            title: "Cooked Gran Feline"
+            icon: "tfc:food/cooked_gran_feline"
+            x: 3.0d
+            y: 8.0d
+            description: ["Cook gran feline on a fire or grill."]
+            tasks: [
+                {id: "T009D", type: "item", item: "tfc:food/cooked_gran_feline"}
+            ]
+            rewards: [
+                {id: "R0105", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "2FBBD4047F125F0A"
+            title: "Cooked Grouse"
+            icon: "tfc:food/cooked_grouse"
+            x: 4.0d
+            y: 8.0d
+            description: ["Cook grouse on a fire or grill."]
+            tasks: [
+                {id: "T009E", type: "item", item: "tfc:food/cooked_grouse"}
+            ]
+            rewards: [
+                {id: "R0106", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "D54D9D5AE376560E"
+            title: "Cooked Horse Meat"
+            icon: "tfc:food/cooked_horse_meat"
+            x: 5.0d
+            y: 8.0d
+            description: ["Cook horse meat on a fire or grill."]
+            tasks: [
+                {id: "T009F", type: "item", item: "tfc:food/cooked_horse_meat"}
+            ]
+            rewards: [
+                {id: "R0107", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "C1A3701875DB523B"
+            title: "Cooked Hyena"
+            icon: "tfc:food/cooked_hyena"
+            x: 0.0d
+            y: 9.0d
+            description: ["Cook hyena on a fire or grill."]
+            tasks: [
+                {id: "T00A0", type: "item", item: "tfc:food/cooked_hyena"}
+            ]
+            rewards: [
+                {id: "R0108", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "C72FCCB5AC0F5AE8"
+            title: "Cooked Lake Trout"
+            icon: "tfc:food/cooked_lake_trout"
+            x: 1.0d
+            y: 9.0d
+            description: ["Cook lake trout on a fire or grill."]
+            tasks: [
+                {id: "T00A1", type: "item", item: "tfc:food/cooked_lake_trout"}
+            ]
+            rewards: [
+                {id: "R0109", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "6051CC60324F5D62"
+            title: "Cooked Largemouth Bass"
+            icon: "tfc:food/cooked_largemouth_bass"
+            x: 2.0d
+            y: 9.0d
+            description: ["Cook largemouth bass on a fire or grill."]
+            tasks: [
+                {id: "T00A2", type: "item", item: "tfc:food/cooked_largemouth_bass"}
+            ]
+            rewards: [
+                {id: "R010A", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "BB1E821E43B55740"
+            title: "Cooked Lentil"
+            icon: "tfc:food/cooked_lentil"
+            x: 3.0d
+            y: 9.0d
+            description: ["Cook lentil on a fire or grill."]
+            tasks: [
+                {id: "T00A3", type: "item", item: "tfc:food/cooked_lentil"}
+            ]
+            rewards: [
+                {id: "R010B", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "DDD73F3D52F55B83"
+            title: "Cooked Mutton"
+            icon: "tfc:food/cooked_mutton"
+            x: 4.0d
+            y: 9.0d
+            description: ["Cook mutton on a fire or grill."]
+            tasks: [
+                {id: "T00A4", type: "item", item: "tfc:food/cooked_mutton"}
+            ]
+            rewards: [
+                {id: "R010C", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "82858D6283645F6F"
+            title: "Cooked Peafowl"
+            icon: "tfc:food/cooked_peafowl"
+            x: 5.0d
+            y: 9.0d
+            description: ["Cook peafowl on a fire or grill."]
+            tasks: [
+                {id: "T00A5", type: "item", item: "tfc:food/cooked_peafowl"}
+            ]
+            rewards: [
+                {id: "R010D", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "AF9CB4D4671E57FB"
+            title: "Cooked Pheasant"
+            icon: "tfc:food/cooked_pheasant"
+            x: 0.0d
+            y: 10.0d
+            description: ["Cook pheasant on a fire or grill."]
+            tasks: [
+                {id: "T00A6", type: "item", item: "tfc:food/cooked_pheasant"}
+            ]
+            rewards: [
+                {id: "R010E", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "F17A014EDDA85E13"
+            title: "Cooked Pork"
+            icon: "tfc:food/cooked_pork"
+            x: 1.0d
+            y: 10.0d
+            description: ["Cook pork on a fire or grill."]
+            tasks: [
+                {id: "T00A7", type: "item", item: "tfc:food/cooked_pork"}
+            ]
+            rewards: [
+                {id: "R010F", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "AA1E6C01F2645584"
+            title: "Cooked Quail"
+            icon: "tfc:food/cooked_quail"
+            x: 2.0d
+            y: 10.0d
+            description: ["Cook quail on a fire or grill."]
+            tasks: [
+                {id: "T00A8", type: "item", item: "tfc:food/cooked_quail"}
+            ]
+            rewards: [
+                {id: "R0110", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "C65B0D3165E257D1"
+            title: "Cooked Rabbit"
+            icon: "tfc:food/cooked_rabbit"
+            x: 3.0d
+            y: 10.0d
+            description: ["Cook rabbit on a fire or grill."]
+            tasks: [
+                {id: "T00A9", type: "item", item: "tfc:food/cooked_rabbit"}
+            ]
+            rewards: [
+                {id: "R0111", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "9056A131CE595A52"
+            title: "Cooked Rainbow Trout"
+            icon: "tfc:food/cooked_rainbow_trout"
+            x: 4.0d
+            y: 10.0d
+            description: ["Cook rainbow trout on a fire or grill."]
+            tasks: [
+                {id: "T00AA", type: "item", item: "tfc:food/cooked_rainbow_trout"}
+            ]
+            rewards: [
+                {id: "R0112", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "A30DC90D66945549"
+            title: "Cooked Rice"
+            icon: "tfc:food/cooked_rice"
+            x: 5.0d
+            y: 10.0d
+            description: ["Cook rice on a fire or grill."]
+            tasks: [
+                {id: "T00AB", type: "item", item: "tfc:food/cooked_rice"}
+            ]
+            rewards: [
+                {id: "R0113", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "AD642C15033753A9"
+            title: "Cooked Salmon"
+            icon: "tfc:food/cooked_salmon"
+            x: 0.0d
+            y: 11.0d
+            description: ["Cook salmon on a fire or grill."]
+            tasks: [
+                {id: "T00AC", type: "item", item: "tfc:food/cooked_salmon"}
+            ]
+            rewards: [
+                {id: "R0114", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "3CEF18DE5A525854"
+            title: "Cooked Shellfish"
+            icon: "tfc:food/cooked_shellfish"
+            x: 1.0d
+            y: 11.0d
+            description: ["Cook shellfish on a fire or grill."]
+            tasks: [
+                {id: "T00AD", type: "item", item: "tfc:food/cooked_shellfish"}
+            ]
+            rewards: [
+                {id: "R0115", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "F78E55AEA56B5FBF"
+            title: "Cooked Smallmouth Bass"
+            icon: "tfc:food/cooked_smallmouth_bass"
+            x: 2.0d
+            y: 11.0d
+            description: ["Cook smallmouth bass on a fire or grill."]
+            tasks: [
+                {id: "T00AE", type: "item", item: "tfc:food/cooked_smallmouth_bass"}
+            ]
+            rewards: [
+                {id: "R0116", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "5F385A0A257F5C01"
+            title: "Cooked Tropical Fish"
+            icon: "tfc:food/cooked_tropical_fish"
+            x: 3.0d
+            y: 11.0d
+            description: ["Cook tropical fish on a fire or grill."]
+            tasks: [
+                {id: "T00AF", type: "item", item: "tfc:food/cooked_tropical_fish"}
+            ]
+            rewards: [
+                {id: "R0117", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "501DB2A3D53E5B33"
+            title: "Cooked Turkey"
+            icon: "tfc:food/cooked_turkey"
+            x: 4.0d
+            y: 11.0d
+            description: ["Cook turkey on a fire or grill."]
+            tasks: [
+                {id: "T00B0", type: "item", item: "tfc:food/cooked_turkey"}
+            ]
+            rewards: [
+                {id: "R0118", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "C4C96A5C9682540B"
+            title: "Cooked Turtle"
+            icon: "tfc:food/cooked_turtle"
+            x: 5.0d
+            y: 11.0d
+            description: ["Cook turtle on a fire or grill."]
+            tasks: [
+                {id: "T00B1", type: "item", item: "tfc:food/cooked_turtle"}
+            ]
+            rewards: [
+                {id: "R0119", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "D30014C125EF507B"
+            title: "Cooked Venison"
+            icon: "tfc:food/cooked_venison"
+            x: 0.0d
+            y: 12.0d
+            description: ["Cook venison on a fire or grill."]
+            tasks: [
+                {id: "T00B2", type: "item", item: "tfc:food/cooked_venison"}
+            ]
+            rewards: [
+                {id: "R011A", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "7736129599BF53C4"
+            title: "Cooked Wolf"
+            icon: "tfc:food/cooked_wolf"
+            x: 1.0d
+            y: 12.0d
+            description: ["Cook wolf on a fire or grill."]
+            tasks: [
+                {id: "T00B3", type: "item", item: "tfc:food/cooked_wolf"}
+            ]
+            rewards: [
+                {id: "R011B", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "D7735E421EFE58C1"
+            title: "Cranberry"
+            icon: "tfc:food/cranberry"
+            x: 2.0d
+            y: 12.0d
+            description: ["Obtain cranberry."]
+            tasks: [
+                {id: "T00B4", type: "item", item: "tfc:food/cranberry"}
+            ]
+            rewards: [
+                {id: "R011C", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "955691BC040555F0"
+            title: "Crappie"
+            icon: "tfc:food/crappie"
+            x: 3.0d
+            y: 12.0d
+            description: ["Obtain crappie."]
+            tasks: [
+                {id: "T00B5", type: "item", item: "tfc:food/crappie"}
+            ]
+            rewards: [
+                {id: "R011D", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "CD4C7AE047A85668"
+            title: "Dairy Salad"
+            icon: "tfc:food/dairy_salad"
+            x: 4.0d
+            y: 12.0d
+            description: ["Combine ingredients in a bowl to make dairy salad."]
+            tasks: [
+                {id: "T00B6", type: "item", item: "tfc:food/dairy_salad"}
+            ]
+            rewards: [
+                {id: "R011E", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "4D37B1E081845FE3"
+            title: "Dairy Soup"
+            icon: "tfc:food/dairy_soup"
+            x: 5.0d
+            y: 12.0d
+            description: ["Make dairy soup in a pot with water and ingredients."]
+            tasks: [
+                {id: "T00B7", type: "item", item: "tfc:food/dairy_soup"}
+            ]
+            rewards: [
+                {id: "R011F", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "AFA2E146B3DC504A"
+            title: "Dried Kelp"
+            icon: "tfc:food/dried_kelp"
+            x: 0.0d
+            y: 13.0d
+            description: ["Obtain dried kelp."]
+            tasks: [
+                {id: "T00B8", type: "item", item: "tfc:food/dried_kelp"}
+            ]
+            rewards: [
+                {id: "R0120", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "FB176A28448C55DC"
+            title: "Dried Seaweed"
+            icon: "tfc:food/dried_seaweed"
+            x: 1.0d
+            y: 13.0d
+            description: ["Obtain dried seaweed."]
+            tasks: [
+                {id: "T00B9", type: "item", item: "tfc:food/dried_seaweed"}
+            ]
+            rewards: [
+                {id: "R0121", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "ED8FBA9465D95767"
+            title: "Duck"
+            icon: "tfc:food/duck"
+            x: 2.0d
+            y: 13.0d
+            description: ["Obtain duck."]
+            tasks: [
+                {id: "T00BA", type: "item", item: "tfc:food/duck"}
+            ]
+            rewards: [
+                {id: "R0122", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "613E2D7BDCC957A9"
+            title: "Elderberry"
+            icon: "tfc:food/elderberry"
+            x: 3.0d
+            y: 13.0d
+            description: ["Obtain elderberry."]
+            tasks: [
+                {id: "T00BB", type: "item", item: "tfc:food/elderberry"}
+            ]
+            rewards: [
+                {id: "R0123", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "9FDA018752055412"
+            title: "Fox"
+            icon: "tfc:food/fox"
+            x: 4.0d
+            y: 13.0d
+            description: ["Obtain fox."]
+            tasks: [
+                {id: "T00BC", type: "item", item: "tfc:food/fox"}
+            ]
+            rewards: [
+                {id: "R0124", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "FB32246618925A9A"
+            title: "Fresh Seaweed"
+            icon: "tfc:food/fresh_seaweed"
+            x: 5.0d
+            y: 13.0d
+            description: ["Obtain fresh seaweed."]
+            tasks: [
+                {id: "T00BD", type: "item", item: "tfc:food/fresh_seaweed"}
+            ]
+            rewards: [
+                {id: "R0125", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "FA523026358D51D9"
+            title: "Frog Legs"
+            icon: "tfc:food/frog_legs"
+            x: 0.0d
+            y: 14.0d
+            description: ["Obtain frog legs."]
+            tasks: [
+                {id: "T00BE", type: "item", item: "tfc:food/frog_legs"}
+            ]
+            rewards: [
+                {id: "R0126", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "5695F8E3A1E65C38"
+            title: "Fruit Salad"
+            icon: "tfc:food/fruit_salad"
+            x: 1.0d
+            y: 14.0d
+            description: ["Combine ingredients in a bowl to make fruit salad."]
+            tasks: [
+                {id: "T00BF", type: "item", item: "tfc:food/fruit_salad"}
+            ]
+            rewards: [
+                {id: "R0127", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "78273C9A6493539B"
+            title: "Fruit Soup"
+            icon: "tfc:food/fruit_soup"
+            x: 2.0d
+            y: 14.0d
+            description: ["Make fruit soup in a pot with water and ingredients."]
+            tasks: [
+                {id: "T00C0", type: "item", item: "tfc:food/fruit_soup"}
+            ]
+            rewards: [
+                {id: "R0128", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "5E5CC49D13FF5730"
+            title: "Garlic"
+            icon: "tfc:food/garlic"
+            x: 3.0d
+            y: 14.0d
+            description: ["Obtain garlic."]
+            tasks: [
+                {id: "T00C1", type: "item", item: "tfc:food/garlic"}
+            ]
+            rewards: [
+                {id: "R0129", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "33F9C9D001C05981"
+            title: "Gooseberry"
+            icon: "tfc:food/gooseberry"
+            x: 4.0d
+            y: 14.0d
+            description: ["Obtain gooseberry."]
+            tasks: [
+                {id: "T00C2", type: "item", item: "tfc:food/gooseberry"}
+            ]
+            rewards: [
+                {id: "R012A", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "CDEF0C6C5C7E5052"
+            title: "Grain Salad"
+            icon: "tfc:food/grain_salad"
+            x: 5.0d
+            y: 14.0d
+            description: ["Combine ingredients in a bowl to make grain salad."]
+            tasks: [
+                {id: "T00C3", type: "item", item: "tfc:food/grain_salad"}
+            ]
+            rewards: [
+                {id: "R012B", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "512BF1FCE02D5254"
+            title: "Grain Soup"
+            icon: "tfc:food/grain_soup"
+            x: 0.0d
+            y: 15.0d
+            description: ["Make grain soup in a pot with water and ingredients."]
+            tasks: [
+                {id: "T00C4", type: "item", item: "tfc:food/grain_soup"}
+            ]
+            rewards: [
+                {id: "R012C", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "59E53658C50D558B"
+            title: "Gran Feline"
+            icon: "tfc:food/gran_feline"
+            x: 1.0d
+            y: 15.0d
+            description: ["Obtain gran feline."]
+            tasks: [
+                {id: "T00C5", type: "item", item: "tfc:food/gran_feline"}
+            ]
+            rewards: [
+                {id: "R012D", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "EE9BF78DCC815E83"
+            title: "Green Apple"
+            icon: "tfc:food/green_apple"
+            x: 2.0d
+            y: 15.0d
+            description: ["Obtain green apple."]
+            tasks: [
+                {id: "T00C6", type: "item", item: "tfc:food/green_apple"}
+            ]
+            rewards: [
+                {id: "R012E", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "32854DE6A4A4592B"
+            title: "Green Bean"
+            icon: "tfc:food/green_bean"
+            x: 3.0d
+            y: 15.0d
+            description: ["Obtain green bean."]
+            tasks: [
+                {id: "T00C7", type: "item", item: "tfc:food/green_bean"}
+            ]
+            rewards: [
+                {id: "R012F", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "3368989A855F529D"
+            title: "Green Bell Pepper"
+            icon: "tfc:food/green_bell_pepper"
+            x: 4.0d
+            y: 15.0d
+            description: ["Obtain green bell pepper."]
+            tasks: [
+                {id: "T00C8", type: "item", item: "tfc:food/green_bell_pepper"}
+            ]
+            rewards: [
+                {id: "R0130", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "19ACFDF61275527B"
+            title: "Grouse"
+            icon: "tfc:food/grouse"
+            x: 5.0d
+            y: 15.0d
+            description: ["Obtain grouse."]
+            tasks: [
+                {id: "T00C9", type: "item", item: "tfc:food/grouse"}
+            ]
+            rewards: [
+                {id: "R0131", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "C2E1EA1F202A5A80"
+            title: "Horse Meat"
+            icon: "tfc:food/horse_meat"
+            x: 0.0d
+            y: 16.0d
+            description: ["Obtain horse meat."]
+            tasks: [
+                {id: "T00CA", type: "item", item: "tfc:food/horse_meat"}
+            ]
+            rewards: [
+                {id: "R0132", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "3EBF21CF19105729"
+            title: "Hyena"
+            icon: "tfc:food/hyena"
+            x: 1.0d
+            y: 16.0d
+            description: ["Obtain hyena."]
+            tasks: [
+                {id: "T00CB", type: "item", item: "tfc:food/hyena"}
+            ]
+            rewards: [
+                {id: "R0133", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "A6BBE29B04E55F5E"
+            title: "Lake Trout"
+            icon: "tfc:food/lake_trout"
+            x: 2.0d
+            y: 16.0d
+            description: ["Obtain lake trout."]
+            tasks: [
+                {id: "T00CC", type: "item", item: "tfc:food/lake_trout"}
+            ]
+            rewards: [
+                {id: "R0134", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "8AFF153017A05CD5"
+            title: "Largemouth Bass"
+            icon: "tfc:food/largemouth_bass"
+            x: 3.0d
+            y: 16.0d
+            description: ["Obtain largemouth bass."]
+            tasks: [
+                {id: "T00CD", type: "item", item: "tfc:food/largemouth_bass"}
+            ]
+            rewards: [
+                {id: "R0135", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "7F83C3A7851B548F"
+            title: "Lemon"
+            icon: "tfc:food/lemon"
+            x: 4.0d
+            y: 16.0d
+            description: ["Obtain lemon."]
+            tasks: [
+                {id: "T00CE", type: "item", item: "tfc:food/lemon"}
+            ]
+            rewards: [
+                {id: "R0136", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "B9ADABD42FF0580B"
+            title: "Lentil"
+            icon: "tfc:food/lentil"
+            x: 5.0d
+            y: 16.0d
+            description: ["Obtain lentil."]
+            tasks: [
+                {id: "T00CF", type: "item", item: "tfc:food/lentil"}
+            ]
+            rewards: [
+                {id: "R0137", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "D2637D226E485DA9"
+            title: "Maize"
+            icon: "tfc:food/maize"
+            x: 0.0d
+            y: 17.0d
+            description: ["Obtain maize."]
+            tasks: [
+                {id: "T00D0", type: "item", item: "tfc:food/maize"}
+            ]
+            rewards: [
+                {id: "R0138", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "472072251D715CFE"
+            title: "Maize Bread"
+            icon: "tfc:food/maize_bread"
+            x: 1.0d
+            y: 17.0d
+            description: ["Bake maize bread from grain dough."]
+            tasks: [
+                {id: "T00D1", type: "item", item: "tfc:food/maize_bread"}
+            ]
+            rewards: [
+                {id: "R0139", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "EF29DD1F482056A2"
+            title: "Maize Bread Jam Sandwich"
+            icon: "tfc:food/maize_bread_jam_sandwich"
+            x: 2.0d
+            y: 17.0d
+            description: ["Bake maize bread jam sandwich from grain dough."]
+            tasks: [
+                {id: "T00D2", type: "item", item: "tfc:food/maize_bread_jam_sandwich"}
+            ]
+            rewards: [
+                {id: "R013A", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "DB295F88CEF851EF"
+            title: "Maize Bread Sandwich"
+            icon: "tfc:food/maize_bread_sandwich"
+            x: 3.0d
+            y: 17.0d
+            description: ["Bake maize bread sandwich from grain dough."]
+            tasks: [
+                {id: "T00D3", type: "item", item: "tfc:food/maize_bread_sandwich"}
+            ]
+            rewards: [
+                {id: "R013B", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "643A72154E1E5611"
+            title: "Maize Dough"
+            icon: "tfc:food/maize_dough"
+            x: 4.0d
+            y: 17.0d
+            description: ["Process grain to get maize dough."]
+            tasks: [
+                {id: "T00D4", type: "item", item: "tfc:food/maize_dough"}
+            ]
+            rewards: [
+                {id: "R013C", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "DB2D10ADF5735E7E"
+            title: "Maize Flour"
+            icon: "tfc:food/maize_flour"
+            x: 5.0d
+            y: 17.0d
+            description: ["Process grain to get maize flour."]
+            tasks: [
+                {id: "T00D5", type: "item", item: "tfc:food/maize_flour"}
+            ]
+            rewards: [
+                {id: "R013D", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "E3D1F1CA966F539F"
+            title: "Maize Grain"
+            icon: "tfc:food/maize_grain"
+            x: 0.0d
+            y: 18.0d
+            description: ["Process grain to get maize grain."]
+            tasks: [
+                {id: "T00D6", type: "item", item: "tfc:food/maize_grain"}
+            ]
+            rewards: [
+                {id: "R013E", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "43DDA3318A8956D2"
+            title: "Melon Slice"
+            icon: "tfc:food/melon_slice"
+            x: 1.0d
+            y: 18.0d
+            description: ["Obtain melon slice."]
+            tasks: [
+                {id: "T00D7", type: "item", item: "tfc:food/melon_slice"}
+            ]
+            rewards: [
+                {id: "R013F", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "09F3AFEA5BBA55DB"
+            title: "Mutton"
+            icon: "tfc:food/mutton"
+            x: 2.0d
+            y: 18.0d
+            description: ["Obtain mutton."]
+            tasks: [
+                {id: "T00D8", type: "item", item: "tfc:food/mutton"}
+            ]
+            rewards: [
+                {id: "R0140", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "0E33D5443A825710"
+            title: "Oat"
+            icon: "tfc:food/oat"
+            x: 3.0d
+            y: 18.0d
+            description: ["Obtain oat."]
+            tasks: [
+                {id: "T00D9", type: "item", item: "tfc:food/oat"}
+            ]
+            rewards: [
+                {id: "R0141", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "4544F5DFB17F5200"
+            title: "Oat Bread"
+            icon: "tfc:food/oat_bread"
+            x: 4.0d
+            y: 18.0d
+            description: ["Bake oat bread from grain dough."]
+            tasks: [
+                {id: "T00DA", type: "item", item: "tfc:food/oat_bread"}
+            ]
+            rewards: [
+                {id: "R0142", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "219BB019E18A55C3"
+            title: "Oat Bread Jam Sandwich"
+            icon: "tfc:food/oat_bread_jam_sandwich"
+            x: 5.0d
+            y: 18.0d
+            description: ["Bake oat bread jam sandwich from grain dough."]
+            tasks: [
+                {id: "T00DB", type: "item", item: "tfc:food/oat_bread_jam_sandwich"}
+            ]
+            rewards: [
+                {id: "R0143", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "66BF6527AE5B50D0"
+            title: "Oat Bread Sandwich"
+            icon: "tfc:food/oat_bread_sandwich"
+            x: 0.0d
+            y: 19.0d
+            description: ["Bake oat bread sandwich from grain dough."]
+            tasks: [
+                {id: "T00DC", type: "item", item: "tfc:food/oat_bread_sandwich"}
+            ]
+            rewards: [
+                {id: "R0144", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "8142858183635F97"
+            title: "Oat Dough"
+            icon: "tfc:food/oat_dough"
+            x: 1.0d
+            y: 19.0d
+            description: ["Process grain to get oat dough."]
+            tasks: [
+                {id: "T00DD", type: "item", item: "tfc:food/oat_dough"}
+            ]
+            rewards: [
+                {id: "R0145", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "9671E6B9598C55F0"
+            title: "Oat Flour"
+            icon: "tfc:food/oat_flour"
+            x: 2.0d
+            y: 19.0d
+            description: ["Process grain to get oat flour."]
+            tasks: [
+                {id: "T00DE", type: "item", item: "tfc:food/oat_flour"}
+            ]
+            rewards: [
+                {id: "R0146", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "DF3361E84C8D5898"
+            title: "Oat Grain"
+            icon: "tfc:food/oat_grain"
+            x: 3.0d
+            y: 19.0d
+            description: ["Process grain to get oat grain."]
+            tasks: [
+                {id: "T00DF", type: "item", item: "tfc:food/oat_grain"}
+            ]
+            rewards: [
+                {id: "R0147", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "13B9C9760315539B"
+            title: "Olive"
+            icon: "tfc:food/olive"
+            x: 4.0d
+            y: 19.0d
+            description: ["Obtain olive."]
+            tasks: [
+                {id: "T00E0", type: "item", item: "tfc:food/olive"}
+            ]
+            rewards: [
+                {id: "R0148", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "16124E0DB9455D4D"
+            title: "Onion"
+            icon: "tfc:food/onion"
+            x: 5.0d
+            y: 19.0d
+            description: ["Obtain onion."]
+            tasks: [
+                {id: "T00E1", type: "item", item: "tfc:food/onion"}
+            ]
+            rewards: [
+                {id: "R0149", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "D43133C240295920"
+            title: "Orange"
+            icon: "tfc:food/orange"
+            x: 0.0d
+            y: 20.0d
+            description: ["Obtain orange."]
+            tasks: [
+                {id: "T00E2", type: "item", item: "tfc:food/orange"}
+            ]
+            rewards: [
+                {id: "R014A", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "4B2884C28F865FE4"
+            title: "Peach"
+            icon: "tfc:food/peach"
+            x: 1.0d
+            y: 20.0d
+            description: ["Obtain peach."]
+            tasks: [
+                {id: "T00E3", type: "item", item: "tfc:food/peach"}
+            ]
+            rewards: [
+                {id: "R014B", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "5E01D83F11755690"
+            title: "Peafowl"
+            icon: "tfc:food/peafowl"
+            x: 2.0d
+            y: 20.0d
+            description: ["Obtain peafowl."]
+            tasks: [
+                {id: "T00E4", type: "item", item: "tfc:food/peafowl"}
+            ]
+            rewards: [
+                {id: "R014C", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "2F44E96CFDDE50CD"
+            title: "Peanut"
+            icon: "tfc:food/peanut"
+            x: 3.0d
+            y: 20.0d
+            description: ["Obtain peanut."]
+            tasks: [
+                {id: "T00E5", type: "item", item: "tfc:food/peanut"}
+            ]
+            rewards: [
+                {id: "R014D", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "D779AEB2156F5E06"
+            title: "Pheasant"
+            icon: "tfc:food/pheasant"
+            x: 4.0d
+            y: 20.0d
+            description: ["Obtain pheasant."]
+            tasks: [
+                {id: "T00E6", type: "item", item: "tfc:food/pheasant"}
+            ]
+            rewards: [
+                {id: "R014E", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "6124A5F829FA5211"
+            title: "Plum"
+            icon: "tfc:food/plum"
+            x: 5.0d
+            y: 20.0d
+            description: ["Obtain plum."]
+            tasks: [
+                {id: "T00E7", type: "item", item: "tfc:food/plum"}
+            ]
+            rewards: [
+                {id: "R014F", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "155D2BA08FA6552A"
+            title: "Pork"
+            icon: "tfc:food/pork"
+            x: 0.0d
+            y: 21.0d
+            description: ["Obtain pork."]
+            tasks: [
+                {id: "T00E8", type: "item", item: "tfc:food/pork"}
+            ]
+            rewards: [
+                {id: "R0150", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "999D3ACFED7A59F9"
+            title: "Potato"
+            icon: "tfc:food/potato"
+            x: 1.0d
+            y: 21.0d
+            description: ["Obtain potato."]
+            tasks: [
+                {id: "T00E9", type: "item", item: "tfc:food/potato"}
+            ]
+            rewards: [
+                {id: "R0151", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "7EB0A4E5A5AD5F63"
+            title: "Protein Salad"
+            icon: "tfc:food/protein_salad"
+            x: 2.0d
+            y: 21.0d
+            description: ["Combine ingredients in a bowl to make protein salad."]
+            tasks: [
+                {id: "T00EA", type: "item", item: "tfc:food/protein_salad"}
+            ]
+            rewards: [
+                {id: "R0152", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "B3BE2DCFD8445DD2"
+            title: "Protein Soup"
+            icon: "tfc:food/protein_soup"
+            x: 3.0d
+            y: 21.0d
+            description: ["Make protein soup in a pot with water and ingredients."]
+            tasks: [
+                {id: "T00EB", type: "item", item: "tfc:food/protein_soup"}
+            ]
+            rewards: [
+                {id: "R0153", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "EB5F60A10FC55746"
+            title: "Pumpkin Chunks"
+            icon: "tfc:food/pumpkin_chunks"
+            x: 4.0d
+            y: 21.0d
+            description: ["Obtain pumpkin chunks."]
+            tasks: [
+                {id: "T00EC", type: "item", item: "tfc:food/pumpkin_chunks"}
+            ]
+            rewards: [
+                {id: "R0154", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "736F59079933589B"
+            title: "Quail"
+            icon: "tfc:food/quail"
+            x: 5.0d
+            y: 21.0d
+            description: ["Obtain quail."]
+            tasks: [
+                {id: "T00ED", type: "item", item: "tfc:food/quail"}
+            ]
+            rewards: [
+                {id: "R0155", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "CE25952D547B5490"
+            title: "Rabbit"
+            icon: "tfc:food/rabbit"
+            x: 0.0d
+            y: 22.0d
+            description: ["Obtain rabbit."]
+            tasks: [
+                {id: "T00EE", type: "item", item: "tfc:food/rabbit"}
+            ]
+            rewards: [
+                {id: "R0156", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "C29257285C695DBF"
+            title: "Radish"
+            icon: "tfc:food/radish"
+            x: 1.0d
+            y: 22.0d
+            description: ["Obtain radish."]
+            tasks: [
+                {id: "T00EF", type: "item", item: "tfc:food/radish"}
+            ]
+            rewards: [
+                {id: "R0157", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "A59D4834E7A55A05"
+            title: "Rainbow Trout"
+            icon: "tfc:food/rainbow_trout"
+            x: 2.0d
+            y: 22.0d
+            description: ["Obtain rainbow trout."]
+            tasks: [
+                {id: "T00F0", type: "item", item: "tfc:food/rainbow_trout"}
+            ]
+            rewards: [
+                {id: "R0158", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "F71B98E2791B54DE"
+            title: "Raspberry"
+            icon: "tfc:food/raspberry"
+            x: 3.0d
+            y: 22.0d
+            description: ["Obtain raspberry."]
+            tasks: [
+                {id: "T00F1", type: "item", item: "tfc:food/raspberry"}
+            ]
+            rewards: [
+                {id: "R0159", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "EDE412A09B975EA1"
+            title: "Red Apple"
+            icon: "tfc:food/red_apple"
+            x: 4.0d
+            y: 22.0d
+            description: ["Obtain red apple."]
+            tasks: [
+                {id: "T00F2", type: "item", item: "tfc:food/red_apple"}
+            ]
+            rewards: [
+                {id: "R015A", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "0DBEF7BF0F665AC5"
+            title: "Red Bell Pepper"
+            icon: "tfc:food/red_bell_pepper"
+            x: 5.0d
+            y: 22.0d
+            description: ["Obtain red bell pepper."]
+            tasks: [
+                {id: "T00F3", type: "item", item: "tfc:food/red_bell_pepper"}
+            ]
+            rewards: [
+                {id: "R015B", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "3B5C43606E5F5F87"
+            title: "Rice"
+            icon: "tfc:food/rice"
+            x: 0.0d
+            y: 23.0d
+            description: ["Obtain rice."]
+            tasks: [
+                {id: "T00F4", type: "item", item: "tfc:food/rice"}
+            ]
+            rewards: [
+                {id: "R015C", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "52D3F4DE8D015EAF"
+            title: "Rice Bread"
+            icon: "tfc:food/rice_bread"
+            x: 1.0d
+            y: 23.0d
+            description: ["Bake rice bread from grain dough."]
+            tasks: [
+                {id: "T00F5", type: "item", item: "tfc:food/rice_bread"}
+            ]
+            rewards: [
+                {id: "R015D", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "E9B2527B0E1E5FC9"
+            title: "Rice Bread Jam Sandwich"
+            icon: "tfc:food/rice_bread_jam_sandwich"
+            x: 2.0d
+            y: 23.0d
+            description: ["Bake rice bread jam sandwich from grain dough."]
+            tasks: [
+                {id: "T00F6", type: "item", item: "tfc:food/rice_bread_jam_sandwich"}
+            ]
+            rewards: [
+                {id: "R015E", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "129C3CEF14B351C0"
+            title: "Rice Bread Sandwich"
+            icon: "tfc:food/rice_bread_sandwich"
+            x: 3.0d
+            y: 23.0d
+            description: ["Bake rice bread sandwich from grain dough."]
+            tasks: [
+                {id: "T00F7", type: "item", item: "tfc:food/rice_bread_sandwich"}
+            ]
+            rewards: [
+                {id: "R015F", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "0DCCD5040F785C4D"
+            title: "Rice Dough"
+            icon: "tfc:food/rice_dough"
+            x: 4.0d
+            y: 23.0d
+            description: ["Process grain to get rice dough."]
+            tasks: [
+                {id: "T00F8", type: "item", item: "tfc:food/rice_dough"}
+            ]
+            rewards: [
+                {id: "R0160", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "241990DEB4165DCF"
+            title: "Rice Flour"
+            icon: "tfc:food/rice_flour"
+            x: 5.0d
+            y: 23.0d
+            description: ["Process grain to get rice flour."]
+            tasks: [
+                {id: "T00F9", type: "item", item: "tfc:food/rice_flour"}
+            ]
+            rewards: [
+                {id: "R0161", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "D4E077B80C6858B7"
+            title: "Rice Grain"
+            icon: "tfc:food/rice_grain"
+            x: 0.0d
+            y: 24.0d
+            description: ["Process grain to get rice grain."]
+            tasks: [
+                {id: "T00FA", type: "item", item: "tfc:food/rice_grain"}
+            ]
+            rewards: [
+                {id: "R0162", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "7567C712A1315A44"
+            title: "Rye"
+            icon: "tfc:food/rye"
+            x: 1.0d
+            y: 24.0d
+            description: ["Obtain rye."]
+            tasks: [
+                {id: "T00FB", type: "item", item: "tfc:food/rye"}
+            ]
+            rewards: [
+                {id: "R0163", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "73D9CC18FB715B91"
+            title: "Rye Bread"
+            icon: "tfc:food/rye_bread"
+            x: 2.0d
+            y: 24.0d
+            description: ["Bake rye bread from grain dough."]
+            tasks: [
+                {id: "T00FC", type: "item", item: "tfc:food/rye_bread"}
+            ]
+            rewards: [
+                {id: "R0164", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "F61914C1F0EE523F"
+            title: "Rye Bread Jam Sandwich"
+            icon: "tfc:food/rye_bread_jam_sandwich"
+            x: 3.0d
+            y: 24.0d
+            description: ["Bake rye bread jam sandwich from grain dough."]
+            tasks: [
+                {id: "T00FD", type: "item", item: "tfc:food/rye_bread_jam_sandwich"}
+            ]
+            rewards: [
+                {id: "R0165", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "43F330C475115513"
+            title: "Rye Bread Sandwich"
+            icon: "tfc:food/rye_bread_sandwich"
+            x: 4.0d
+            y: 24.0d
+            description: ["Bake rye bread sandwich from grain dough."]
+            tasks: [
+                {id: "T00FE", type: "item", item: "tfc:food/rye_bread_sandwich"}
+            ]
+            rewards: [
+                {id: "R0166", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "6AA10CFD24F15D32"
+            title: "Rye Dough"
+            icon: "tfc:food/rye_dough"
+            x: 5.0d
+            y: 24.0d
+            description: ["Process grain to get rye dough."]
+            tasks: [
+                {id: "T00FF", type: "item", item: "tfc:food/rye_dough"}
+            ]
+            rewards: [
+                {id: "R0167", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "470C845680DB5E36"
+            title: "Rye Flour"
+            icon: "tfc:food/rye_flour"
+            x: 0.0d
+            y: 25.0d
+            description: ["Process grain to get rye flour."]
+            tasks: [
+                {id: "T0100", type: "item", item: "tfc:food/rye_flour"}
+            ]
+            rewards: [
+                {id: "R0168", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "4B266FAF83175EE0"
+            title: "Rye Grain"
+            icon: "tfc:food/rye_grain"
+            x: 1.0d
+            y: 25.0d
+            description: ["Process grain to get rye grain."]
+            tasks: [
+                {id: "T0101", type: "item", item: "tfc:food/rye_grain"}
+            ]
+            rewards: [
+                {id: "R0169", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "24F674A4EAF956D0"
+            title: "Salmon"
+            icon: "tfc:food/salmon"
+            x: 2.0d
+            y: 25.0d
+            description: ["Obtain salmon."]
+            tasks: [
+                {id: "T0102", type: "item", item: "tfc:food/salmon"}
+            ]
+            rewards: [
+                {id: "R016A", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "7BB2377563895838"
+            title: "Shellfish"
+            icon: "tfc:food/shellfish"
+            x: 3.0d
+            y: 25.0d
+            description: ["Obtain shellfish."]
+            tasks: [
+                {id: "T0103", type: "item", item: "tfc:food/shellfish"}
+            ]
+            rewards: [
+                {id: "R016B", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "68B1870838545778"
+            title: "Smallmouth Bass"
+            icon: "tfc:food/smallmouth_bass"
+            x: 4.0d
+            y: 25.0d
+            description: ["Obtain smallmouth bass."]
+            tasks: [
+                {id: "T0104", type: "item", item: "tfc:food/smallmouth_bass"}
+            ]
+            rewards: [
+                {id: "R016C", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "A2AC408A478C56D5"
+            title: "Snowberry"
+            icon: "tfc:food/snowberry"
+            x: 5.0d
+            y: 25.0d
+            description: ["Obtain snowberry."]
+            tasks: [
+                {id: "T0105", type: "item", item: "tfc:food/snowberry"}
+            ]
+            rewards: [
+                {id: "R016D", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "99DD4BF6B26A5AA9"
+            title: "Soybean"
+            icon: "tfc:food/soybean"
+            x: 0.0d
+            y: 26.0d
+            description: ["Obtain soybean."]
+            tasks: [
+                {id: "T0106", type: "item", item: "tfc:food/soybean"}
+            ]
+            rewards: [
+                {id: "R016E", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "213BC2824DF755AD"
+            title: "Squash"
+            icon: "tfc:food/squash"
+            x: 1.0d
+            y: 26.0d
+            description: ["Obtain squash."]
+            tasks: [
+                {id: "T0107", type: "item", item: "tfc:food/squash"}
+            ]
+            rewards: [
+                {id: "R016F", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "351FC1F961F7511A"
+            title: "Strawberry"
+            icon: "tfc:food/strawberry"
+            x: 2.0d
+            y: 26.0d
+            description: ["Obtain strawberry."]
+            tasks: [
+                {id: "T0108", type: "item", item: "tfc:food/strawberry"}
+            ]
+            rewards: [
+                {id: "R0170", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "3A638B2692B45EFB"
+            title: "Sugarcane"
+            icon: "tfc:food/sugarcane"
+            x: 3.0d
+            y: 26.0d
+            description: ["Obtain sugarcane."]
+            tasks: [
+                {id: "T0109", type: "item", item: "tfc:food/sugarcane"}
+            ]
+            rewards: [
+                {id: "R0171", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "A01B8775136A564F"
+            title: "Taro Root"
+            icon: "tfc:food/taro_root"
+            x: 4.0d
+            y: 26.0d
+            description: ["Obtain taro root."]
+            tasks: [
+                {id: "T010A", type: "item", item: "tfc:food/taro_root"}
+            ]
+            rewards: [
+                {id: "R0172", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "768C6364356A5D95"
+            title: "Tomato"
+            icon: "tfc:food/tomato"
+            x: 5.0d
+            y: 26.0d
+            description: ["Obtain tomato."]
+            tasks: [
+                {id: "T010B", type: "item", item: "tfc:food/tomato"}
+            ]
+            rewards: [
+                {id: "R0173", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "47EACFB51ABE5BE1"
+            title: "Tropical Fish"
+            icon: "tfc:food/tropical_fish"
+            x: 0.0d
+            y: 27.0d
+            description: ["Obtain tropical fish."]
+            tasks: [
+                {id: "T010C", type: "item", item: "tfc:food/tropical_fish"}
+            ]
+            rewards: [
+                {id: "R0174", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "5DFA96CA6C15522E"
+            title: "Turkey"
+            icon: "tfc:food/turkey"
+            x: 1.0d
+            y: 27.0d
+            description: ["Obtain turkey."]
+            tasks: [
+                {id: "T010D", type: "item", item: "tfc:food/turkey"}
+            ]
+            rewards: [
+                {id: "R0175", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "62EEEFF2B823593C"
+            title: "Turtle"
+            icon: "tfc:food/turtle"
+            x: 2.0d
+            y: 27.0d
+            description: ["Obtain turtle."]
+            tasks: [
+                {id: "T010E", type: "item", item: "tfc:food/turtle"}
+            ]
+            rewards: [
+                {id: "R0176", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "3EB2C332713853C1"
+            title: "Vegetables Salad"
+            icon: "tfc:food/vegetables_salad"
+            x: 3.0d
+            y: 27.0d
+            description: ["Combine ingredients in a bowl to make vegetables salad."]
+            tasks: [
+                {id: "T010F", type: "item", item: "tfc:food/vegetables_salad"}
+            ]
+            rewards: [
+                {id: "R0177", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "08582E4654FD56E4"
+            title: "Vegetables Soup"
+            icon: "tfc:food/vegetables_soup"
+            x: 4.0d
+            y: 27.0d
+            description: ["Make vegetables soup in a pot with water and ingredients."]
+            tasks: [
+                {id: "T0110", type: "item", item: "tfc:food/vegetables_soup"}
+            ]
+            rewards: [
+                {id: "R0178", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "26FD7F79553B55CE"
+            title: "Venison"
+            icon: "tfc:food/venison"
+            x: 5.0d
+            y: 27.0d
+            description: ["Obtain venison."]
+            tasks: [
+                {id: "T0111", type: "item", item: "tfc:food/venison"}
+            ]
+            rewards: [
+                {id: "R0179", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "9B54546287CD5CBA"
+            title: "Wheat"
+            icon: "tfc:food/wheat"
+            x: 0.0d
+            y: 28.0d
+            description: ["Obtain wheat."]
+            tasks: [
+                {id: "T0112", type: "item", item: "tfc:food/wheat"}
+            ]
+            rewards: [
+                {id: "R017A", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "506C2EE82E0950ED"
+            title: "Wheat Bread"
+            icon: "tfc:food/wheat_bread"
+            x: 1.0d
+            y: 28.0d
+            description: ["Bake wheat bread from grain dough."]
+            tasks: [
+                {id: "T0113", type: "item", item: "tfc:food/wheat_bread"}
+            ]
+            rewards: [
+                {id: "R017B", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "3A16BDBA6CDB5093"
+            title: "Wheat Bread Jam Sandwich"
+            icon: "tfc:food/wheat_bread_jam_sandwich"
+            x: 2.0d
+            y: 28.0d
+            description: ["Bake wheat bread jam sandwich from grain dough."]
+            tasks: [
+                {id: "T0114", type: "item", item: "tfc:food/wheat_bread_jam_sandwich"}
+            ]
+            rewards: [
+                {id: "R017C", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "E06F5FFB468B5023"
+            title: "Wheat Bread Sandwich"
+            icon: "tfc:food/wheat_bread_sandwich"
+            x: 3.0d
+            y: 28.0d
+            description: ["Bake wheat bread sandwich from grain dough."]
+            tasks: [
+                {id: "T0115", type: "item", item: "tfc:food/wheat_bread_sandwich"}
+            ]
+            rewards: [
+                {id: "R017D", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "83BC2DC7C6BF5E9F"
+            title: "Wheat Dough"
+            icon: "tfc:food/wheat_dough"
+            x: 4.0d
+            y: 28.0d
+            description: ["Process grain to get wheat dough."]
+            tasks: [
+                {id: "T0116", type: "item", item: "tfc:food/wheat_dough"}
+            ]
+            rewards: [
+                {id: "R017E", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "C5BDF5A519FF5425"
+            title: "Wheat Flour"
+            icon: "tfc:food/wheat_flour"
+            x: 5.0d
+            y: 28.0d
+            description: ["Process grain to get wheat flour."]
+            tasks: [
+                {id: "T0117", type: "item", item: "tfc:food/wheat_flour"}
+            ]
+            rewards: [
+                {id: "R017F", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "FBEBA11DF8915C2B"
+            title: "Wheat Grain"
+            icon: "tfc:food/wheat_grain"
+            x: 0.0d
+            y: 29.0d
+            description: ["Process grain to get wheat grain."]
+            tasks: [
+                {id: "T0118", type: "item", item: "tfc:food/wheat_grain"}
+            ]
+            rewards: [
+                {id: "R0180", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "0F48D529520D544B"
+            title: "Wintergreen Berry"
+            icon: "tfc:food/wintergreen_berry"
+            x: 1.0d
+            y: 29.0d
+            description: ["Obtain wintergreen berry."]
+            tasks: [
+                {id: "T0119", type: "item", item: "tfc:food/wintergreen_berry"}
+            ]
+            rewards: [
+                {id: "R0181", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "9538C7AB430B508B"
+            title: "Wolf"
+            icon: "tfc:food/wolf"
+            x: 2.0d
+            y: 29.0d
+            description: ["Obtain wolf."]
+            tasks: [
+                {id: "T011A", type: "item", item: "tfc:food/wolf"}
+            ]
+            rewards: [
+                {id: "R0182", type: "xp", xp: "2L"}
+            ]
+        }
+        {
+            id: "FFB1904F9DBE5878"
+            title: "Yellow Bell Pepper"
+            icon: "tfc:food/yellow_bell_pepper"
+            x: 3.0d
+            y: 29.0d
+            description: ["Obtain yellow bell pepper."]
+            tasks: [
+                {id: "T011B", type: "item", item: "tfc:food/yellow_bell_pepper"}
+            ]
+            rewards: [
+                {id: "R0183", type: "xp", xp: "2L"}
+            ]
+        }
+    ]
+}
