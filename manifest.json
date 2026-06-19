@@ -11,9 +11,9 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Terra Agraria: From Soil to Stars",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "author": "TerraAgraria Team",
-  "description": "A long-term Minecraft 1.21.1 NeoForge modpack built around TerraFirmaCraft. Realistic farming, agriculture, and cooking meet late-game tech (Create, Mekanism, Immersive Engineering, Applied Energistics 2). 564 quests across 19 chapters. Includes 150 mods with all dependencies pre-resolved. Stardew Valley-style farming: 4 seasons, fishing, 100+ crops, deep cooking. NeoForge 21.1.233.",
+  "description": "A long-term Minecraft 1.21.1 NeoForge modpack built around TerraFirmaCraft. Realistic farming, agriculture, and cooking meet late-game tech. 759 quests across 19 chapters. NeoForge 21.1.233. Created by gnolblack, quest generation by Z.ai.",
   "files": [
     {
       "projectID": 60089,
@@ -761,8 +761,23 @@
       "required": true
     },
     {
-      "projectID": 1505798,
-      "fileID": 7887164,
+      "projectID": 313970,
+      "fileID": 8182695,
+      "required": true
+    },
+    {
+      "projectID": 898963,
+      "fileID": 7445079,
+      "required": true
+    },
+    {
+      "projectID": 1063926,
+      "fileID": 8107222,
+      "required": true
+    },
+    {
+      "projectID": 986583,
+      "fileID": 7492121,
       "required": true
     }
   ],
