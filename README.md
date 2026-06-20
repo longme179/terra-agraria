@@ -8,11 +8,11 @@ A long-term Minecraft 1.21.1 NeoForge modpack built around TerraFirmaCraft.
 3. Allocate 6GB+ RAM (6144 MB)
 4. Launch!
 
-## What's New in v2.1.0
-- Removed Heracles (suspicious mod)
+## What's New in v3.0.1
+- Better Questings
 - Added Apotheosis + Apothic Attributes, Enchanting, Spawners
 - Added When Dungeons Arise (epic dungeon structures)
-- Tetra and Tinker's Construct NOT available for 1.21.1 NeoForge
+- Add-ons
 
 ## Credits
 Created by: gnolblack
