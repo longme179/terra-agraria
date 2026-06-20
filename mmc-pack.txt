@@ -1,7 +1,0 @@
-Components:
-- Version: 1.21.1
-  Important: true
-  Name: net.minecraft
-- Version: 21.1.233
-  Important: true
-  Name: net.neoforged
